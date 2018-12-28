@@ -1,3 +1,81 @@
+
 page-home {
 
+    .scroll-content {
+        margin-top: 80px;
+        padding-bottom: 30px !important;
+    }
+    .swiper-container {
+        overflow: inherit !important;
+    }
+   
+    .sliderBanner {
+        height: 265px !important;
+        .swiper-pagination-bullet {
+            //pointer-events: none;
+        }
+        .slide-zoom {
+            border-radius: 10px;
+        }
+        .swiper-container {
+            overflow: hidden !important;
+        }
+        ion-slide {
+            height: 240px !important;
+            box-sizing: border-box;
+            div {
+                width: 90%;
+                height: 100%;
+                background: #8d1f88;
+                background-image: url('../assets/imgs/tsconfig.jpg');
+                background-size: cover;
+                overflow: hidden;
+            }
+        }
+    }
+
+    
+
+    .slide-general {
+        //overflow: scroll;
+        .slide-zoom {
+            height: 100%;
+        }
+    }
+
+    ion-item {
+        h2 {
+            font-size: 14px;
+        }
+        .date-public {
+            font-size: 11px;
+        }
+    }
+    ion-footer {
+        width: 100%;
+        background: rgba(248, 248, 248, 1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button {
+            width: 25%;
+            font-size: 9px !important;
+            span {
+                display: flex !important; 
+                flex-direction: column !important; 
+                ion-icon {
+                    font-size: 25px;
+                }
+            }
+        }
+
+    }
+
+    .card-post {
+        text-align: left;
+        p {
+            font-weight: 300;
+        }
+        font-weight: 300;
+    }
 }

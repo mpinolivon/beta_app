@@ -1,0 +1,45 @@
+page-about {
+    .scroll-content {
+        margin-top: 69px;
+        margin-bottom: 69px !important;
+    }
+    .treeItems {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            p {
+                margin: 0;
+            }
+        }
+        .day {
+            text-align: center;
+            p {
+                font-size: 10px;
+                color: rgb( 120, 54, 187 );
+            }
+            h4 {
+                font-weight: 700;
+                font-size: 23px;
+            }
+        }
+        .name {
+            padding: 10px;
+            .nameInter {
+                font-size: 14.5px;
+                font-weight: 500;
+            }
+            .lugar {
+                font-size: 13px;
+            }
+        }
+
+        .button-inscribir {
+            text-transform: capitalize;
+            background: purple;
+            border-radius: 40px;
+            font-size: 12px;
+            height: 24px !important;
+        }
+    }
+}

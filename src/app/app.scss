@@ -14,3 +14,49 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.public-state {
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 17px !important;
+    width: 90%;
+    ion-row {
+        flex-wrap: nowrap !important;
+        align-items: center;
+        button {
+            margin: 0;
+            width: 33.33%;
+            border: 1px solid #e0e0e0;
+            color: #a0a0a0;
+            height: 32px;
+            border-radius: 0px;
+        }
+        button  p {
+            font-size: 11px;
+            text-transform: capitalize;
+            margin-left: 6px;
+            color: #a0a0a0;
+            margin-bottom: 0px;
+        }
+    }
+}
+ion-item {
+    h2 {
+        font-size: 14px;
+    }
+    .date-public {
+        font-size: 11px;
+    }
+}
+.card-post {
+    text-align: left;
+    p {
+        font-weight: 300;
+    }
+    font-weight: 300;
+}

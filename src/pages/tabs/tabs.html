@@ -1,0 +1,21 @@
+<ion-header>
+  <button ion-button color="dark" clear>
+    <ion-icon name="ios-menu-outline" style="font-size: 25px;"></ion-icon>
+  </button>
+  <ion-searchbar
+    [(ngModel)]="myInput"
+    [showCancelButton]="shouldShowCancel"
+    (ionInput)="onInput($event)"
+    (ionCancel)="onCancel($event)">
+  </ion-searchbar>
+  <button ion-button color="dark" clear>
+    <ion-icon name="ios-notifications-outline" style="font-size: 25px;"></ion-icon>
+  </button>
+</ion-header>
+
+<ion-tabs>
+  <ion-tab [root]="tab1Root" tabTitle="Todos" tabIcon="ios-infinite"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="Eventos" tabIcon="md-calendar"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="Videos" tabIcon="ios-videocam-outline"></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="Lectura" tabIcon="md-glasses"></ion-tab>
+</ion-tabs>

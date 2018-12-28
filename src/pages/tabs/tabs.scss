@@ -1,0 +1,34 @@
+ion-header {
+    width: 100%;
+    height: 60px;
+    background: white;
+    //padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu {
+        width: 50px;
+        height: 50px;
+        background: red;
+    }
+    ion-searchbar {
+        border-radius: 35px !important;
+        background-color: #f7f7f7 !important;
+        width: 68%;
+        padding: 0px !important;
+        input {
+            border-radius: 35px !important;
+            background-color: #f7f7f7 !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background: #888888;
+}
+
+.tab-button[aria-selected=true] .tab-button-icon , .tab-button[aria-selected=true]{
+    color:rgb(141, 31, 136) !important;
+}
