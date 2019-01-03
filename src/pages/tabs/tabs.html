@@ -1,5 +1,5 @@
 <ion-header>
-  <button ion-button color="dark" clear>
+  <button ion-button color="dark" clear (click)="menuOpen()">
     <ion-icon name="ios-menu-outline" style="font-size: 25px;"></ion-icon>
   </button>
   <ion-searchbar
@@ -19,3 +19,31 @@
   <ion-tab [root]="tab3Root" tabTitle="Videos" tabIcon="ios-videocam-outline"></ion-tab>
   <ion-tab [root]="tab4Root" tabTitle="Lectura" tabIcon="md-glasses"></ion-tab>
 </ion-tabs>
+
+<div class="menu" [ngStyle]="{'display': menuAppear}">
+    <button ion-button color="dark" clear class="closeMenu" (click)="menuClose()"> 
+      <ion-icon name="close" style="font-size: 25px;"></ion-icon>
+    </button> 
+    <img src="assets/imgs/user.png" alt="">
+    <h3>Francisco Aguaro</h3>
+    <button ion-button color="dark" clear class="logOut">
+        Salir del app
+      </button>
+
+      <div class="container-menu-buttons">
+          <button ion-button clear>
+              Mis datos
+          </button>
+          <button ion-button clear>
+              Mis eventos
+          </button>
+          <button ion-button clear>
+              Contáctanos
+          </button>
+      </div>
+      
+  </div>
+
+  <div class="check" [ngStyle]="{'display': inscript}">
+
+    </div>
