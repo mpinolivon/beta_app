@@ -20,7 +20,7 @@ export class AboutPage {
   // }
 
   inscribe() {
-    this.sessionS.setObject('paramInscrip','block')
+    this.sessionS.setObject('paramInscrip','flex')
     this.events.publish('user:login');
   }
 }

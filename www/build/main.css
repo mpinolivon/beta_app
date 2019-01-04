@@ -26137,6 +26137,42 @@ ion-header ion-searchbar input {
   right: 0;
   width: 100%;
   height: 100vh;
-  background: red;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(212, 57, 135, 0.65)), to(rgba(160, 67, 182, 0.65)));
+  background-image: linear-gradient(to bottom right, rgba(212, 57, 135, 0.65), rgba(160, 67, 182, 0.65));
   z-index: 9999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.check .icon-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.check .icon-text p {
+  margin: 0;
+}
+
+.check .icon-text ion-icon {
+  font-size: 102px;
+  font-weight: 900;
 }

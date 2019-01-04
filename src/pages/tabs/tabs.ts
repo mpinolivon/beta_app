@@ -39,6 +39,16 @@ export class TabsPage {
   }
 
   inscribe() {
+    console.log('Timer Start');
+    const start = Date.now();
+    let timeOutHandler = setTimeout(() => {
+        const e = Date.now() - start;
+        console.log('Timer End', e);
+        this.sessionS.setObject('paramInscrip','none')
+        this.inscript =  this.sessionS.getObject('paramInscrip');
+      },
+      2000
+    );
     this.inscript = this.sessionS.getObject('paramInscrip');
   }
 }
