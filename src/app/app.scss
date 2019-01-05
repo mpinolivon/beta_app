@@ -20,6 +20,19 @@
     font-family: 'Lato', sans-serif;
 }
 
+@import "./assets/scss/fontawesome.scss";
+@import "./assets/scss/solid.scss";
+@import "./assets/scss/brands.scss";
+
+.user {
+    @extend %fa-icon;
+    @extend .fas;
+  
+    &:before {
+      content: fa-content($fa-var-user);
+    }
+  }
+
 .public-state {
     border-radius: 5px;
     margin: auto;
