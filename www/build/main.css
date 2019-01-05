@@ -31619,6 +31619,127 @@ page-reading .scroll-content {
   margin-bottom: 69px !important;
 }
 
+page-reading .card-post p a {
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: purple;
+}
+
+page-reading-internal ion-header {
+  width: 100%;
+  height: 50vh;
+  background: red;
+  position: relative;
+}
+
+page-reading-internal ion-header .nav {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  z-index: 999999999;
+}
+
+page-reading-internal ion-header .nav .arrow-back {
+  margin-right: 10px;
+}
+
+page-reading-internal ion-header h3 {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px;
+  z-index: 999999999;
+}
+
+page-reading-internal ion-header .after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(212, 57, 135, 0.65)), to(rgba(160, 67, 182, 0.65)));
+  background-image: linear-gradient(to bottom right, rgba(212, 57, 135, 0.65), rgba(160, 67, 182, 0.65));
+}
+
+page-reading-internal .content-text {
+  padding: 20px;
+}
+
+page-reading-internal .content-text .perfil-news {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+page-reading-internal .content-text .perfil-news img {
+  width: 45px;
+  height: auto;
+  margin-right: 10px;
+}
+
+page-reading-internal .content-text .perfil-news p {
+  margin: 0;
+  font-weight: 300;
+}
+
+page-reading-internal .content-text .perfil-news .hour {
+  color: #9a9a9a;
+  font-size: 12px;
+}
+
+page-reading-internal .content-text .text {
+  color: #4a4a4a;
+}
+
+page-reading-internal .ion-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: initial;
+  -ms-flex-wrap: initial;
+  flex-wrap: initial;
+}
+
+page-reading-internal .ion-row button {
+  width: 100%;
+  color: #a0a0a0 !important;
+  height: 32px;
+  font-size: 15px;
+  border: 1px solid #e0e0e0;
+  margin: 0;
+  border-radius: 0;
+}
+
+page-reading-internal .ion-row button span ion-icon {
+  margin-right: 10px;
+}
+
+page-reading-internal .ion-row button span p {
+  text-transform: capitalize;
+}
+
 ion-header {
   width: 100%;
   height: 60px;

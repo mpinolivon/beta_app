@@ -10,6 +10,9 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { ReadingPage } from '../pages/reading/reading';
 import { LoginPage } from '../pages/login/login';
 import { LoginAfterPage } from '../pages/login-after/login-after';
+import { ReadingInternalPage } from '../pages/reading-internal/reading-internal';
+
+
 
 import { SessionService } from '../services/session.service';
 
@@ -26,6 +29,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ReadingPage,
     LoginPage,
     LoginAfterPage,
+    ReadingInternalPage,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +46,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ReadingPage,
     LoginPage,
     LoginAfterPage,
-    
+    ReadingInternalPage
   ],
   providers: [
     StatusBar,

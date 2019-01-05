@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
+import { ReadingInternalPage } from '../../pages/reading-internal/reading-internal';
+
 
 /**
  * Generated class for the ReadingPage page.
@@ -15,11 +17,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ReadingPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ReadingPage');
+  }
+
+  goView() {
+    let profileModal = this.modalCtrl.create(ReadingInternalPage);
+   profileModal.present();
+    //this.navCtrl.push(ReadingInternalPage)
+    console.log('richard')
   }
 
 }
