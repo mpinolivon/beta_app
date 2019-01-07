@@ -1,4 +1,4 @@
-#Fri Jan 04 19:08:56 PET 2019
+#Mon Jan 07 11:08:40 PET 2019
 base.0=/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -11,11 +11,14 @@ import { ReadingPage } from '../pages/reading/reading';
 import { LoginPage } from '../pages/login/login';
 import { LoginAfterPage } from '../pages/login-after/login-after';
 import { ReadingInternalPage } from '../pages/reading-internal/reading-internal';
+import { QrPage } from '../pages/qr/qr';
 
 
 
 import { SessionService } from '../services/session.service';
 
+import { NgxQRCodeModule } from 'ngx-qrcode2';
+import { BarcodeScanner } from '@ionic-native/barcode-scanner'
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -30,11 +33,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     LoginAfterPage,
     ReadingInternalPage,
+    QrPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    
+    NgxQRCodeModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -46,12 +50,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ReadingPage,
     LoginPage,
     LoginAfterPage,
-    ReadingInternalPage
+    ReadingInternalPage,
+    QrPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     SessionService,
+    BarcodeScanner,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
