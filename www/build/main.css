@@ -31403,6 +31403,12 @@ page-about .treeItems .button-inscribir {
   height: 24px !important;
 }
 
+
+.fas,
+.user {
+  font-size: smaller;
+}
+
 page-contact .scroll-content {
   margin-top: 69px;
   margin-bottom: 69px !important;
