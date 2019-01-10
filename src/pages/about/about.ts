@@ -24,3 +24,4 @@ export class AboutPage {
     this.events.publish('user:login');
   }
 }
+

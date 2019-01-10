@@ -13,7 +13,7 @@ import { LoginAfterPage } from '../pages/login-after/login-after';
 import { ReadingInternalPage } from '../pages/reading-internal/reading-internal';
 import { QrPage } from '../pages/qr/qr';
 
-
+import { HttpModule, Headers, RequestOptions, Http } from '@angular/http';
 
 import { SessionService } from '../services/session.service';
 
@@ -21,6 +21,8 @@ import { NgxQRCodeModule } from 'ngx-qrcode2';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner'
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { ServicesAuth } from '../providers/services/services';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    NgxQRCodeModule
+    NgxQRCodeModule,
+    HttpClientModule,
+    HttpModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -58,7 +62,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SplashScreen,
     SessionService,
     BarcodeScanner,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    ServicesAuth,
   ]
 })
 export class AppModule {}

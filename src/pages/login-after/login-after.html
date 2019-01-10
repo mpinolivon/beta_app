@@ -9,20 +9,22 @@
       <img src="assets/imgs/logo.png" alt="" width="300px">
   </div>
   <div class="content-login" *ngIf="loginSession == 0">
-      <input type="text" placeholder="Email">
-      <input type="password" placeholder="Contraseña">
-      <button ion-button class="goLogin" (click)="goHome()" >Ingresar</button>
+      <input [(ngModel)]='userparameters.username' type="text" placeholder="Email">
+      <input [(ngModel)]='userparameters.password' type="password" placeholder="Contraseña">
+      <button ion-button class="goLogin" (click)="login()" >Ingresar</button>
       <button ion-button class="goLogin goBack" (click)="goBack()">Regresar</button>
   </div>
 
   <div class="content-login-register" *ngIf="loginSession == 1">
-      <input type="text" placeholder="Nombre">
-      <input type="text" placeholder="Apellido">
-      <input type="text" placeholder="Email">
-      <input type="password" placeholder="Contraseña">
-      <input type="password" placeholder="Repetir contraseña">
-      <button ion-button class="goLogin" (click)="goHome()" >Aceptar y Ingresar</button>
+      <input [(ngModel)]='usernewparameters.name' type="text" placeholder="Nombre">
+      <input [(ngModel)]='usernewparameters.lastname'type="text" placeholder="Apellido">
+      <input type="text" [(ngModel)]='usernewparameters.email' placeholder="Email">
+      <input type="password" [(ngModel)]='usernewparameters.password' placeholder="Contraseña">
+      <input type="password" [(ngModel)]='usernewparameters.password_confirmation' placeholder="Repetir contraseña">
+      <button ion-button class="goLogin" (click)="createuser()" >Aceptar y Ingresar</button>
       <button ion-button class="goLogin goBack" (click)="goBack()" >Regresar</button>
   </div>
   
 </ion-content>
+
+
