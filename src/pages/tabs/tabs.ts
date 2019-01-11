@@ -6,6 +6,8 @@ import { HomePage } from '../home/home';
 import { ReadingPage } from '../reading/reading';
 import { SessionService } from '../../services/session.service';
 import { Events } from 'ionic-angular';
+import { ServicesAuth } from '../../providers/services/services';
+
 
 
 @Component({
@@ -20,12 +22,16 @@ export class TabsPage {
   public menuAppear = 'none';
   public inscript = '';
 
-  constructor(public sessionS:SessionService, public events: Events) {
+  constructor(public sessionS:SessionService, public events: Events, public services:ServicesAuth) {
     this.sessionS.setObject('paramInscrip','none')
     this.inscript = this.sessionS.getObject('paramInscrip');
     events.subscribe('user:login', () => {
       this.inscribe();
     });
+
+
+  
+
   }
 
   
@@ -51,4 +57,7 @@ export class TabsPage {
     );
     this.inscript = this.sessionS.getObject('paramInscrip');
   }
+
+
+  
 }
