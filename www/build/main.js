@@ -4,60 +4,6 @@ webpackJsonp([5],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_after_login_after__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_session_service__ = __webpack_require__(54);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the LoginPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var LoginPage = /** @class */ (function () {
-    function LoginPage(navCtrl, navParams, sessionS) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.sessionS = sessionS;
-    }
-    LoginPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LoginPage');
-    };
-    LoginPage.prototype.loginPage = function (index) {
-        this.sessionS.setObject('login', index);
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__login_after_login_after__["a" /* LoginAfterPage */]);
-    };
-    LoginPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/login/login.html"*/'<!--\n  Generated template for the LoginPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content>\n  <div class="container">\n    <img src="assets/imgs/logo.png" alt="">\n    <p>Lo mejor de la innovación <br>\n        en la palma de tu mano</p>\n        <button ion-button class="linkedinButton"> <ion-icon name="logo-linkedin"></ion-icon>  Ingresar con Linkedin</button>\n        <button ion-button color="dark" class="mailButton"  (click)="loginPage(0)">Ingresar con Email</button>\n        <button ion-button class="forget" color="light" clear>Olvide la contraseña</button>\n        <button ion-button class="register" (click)="loginPage(1)">Registrar</button>\n        <p class="terminos">Al registrarte e ingresar estás de acuerdo <br>\n            con nuestros Términos y condiciones</p>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/login/login.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__services_session_service__["a" /* SessionService */]])
-    ], LoginPage);
-    return LoginPage;
-}());
-
-//# sourceMappingURL=login.js.map
-
-/***/ }),
-
-/***/ 132:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginAfterPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
@@ -170,24 +116,27 @@ var LoginAfterPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-login-after',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/login-after/login-after.html"*/'<!--\n  Generated template for the LoginAfterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content>\n  <div class="header-logo">\n      <img src="assets/imgs/logo.png" alt="" width="300px">\n  </div>\n  <div class="content-login" *ngIf="loginSession == 0">\n      <input [(ngModel)]=\'userparameters.username\' type="text" placeholder="Email">\n      <input [(ngModel)]=\'userparameters.password\' type="password" placeholder="Contraseña">\n      <button ion-button class="goLogin" (click)="login()" >Ingresar</button>\n      <button ion-button class="goLogin goBack" (click)="goBack()">Regresar</button>\n  </div>\n\n  <div class="content-login-register" *ngIf="loginSession == 1">\n      <input [(ngModel)]=\'usernewparameters.name\' type="text" placeholder="Nombre">\n      <input [(ngModel)]=\'usernewparameters.lastname\'type="text" placeholder="Apellido">\n      <input type="text" [(ngModel)]=\'usernewparameters.email\' placeholder="Email">\n      <input type="password" [(ngModel)]=\'usernewparameters.password\' placeholder="Contraseña">\n      <input type="password" [(ngModel)]=\'usernewparameters.password_confirmation\' placeholder="Repetir contraseña">\n      <button ion-button class="goLogin" (click)="createuser()" >Aceptar y Ingresar</button>\n      <button ion-button class="goLogin goBack" (click)="goBack()" >Regresar</button>\n  </div>\n  \n</ion-content>\n\n\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/login-after/login-after.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__services_session_service__["a" /* SessionService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_session_service__["a" /* SessionService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_4__providers_services_services__["a" /* ServicesAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_services_services__["a" /* ServicesAuth */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__services_session_service__["a" /* SessionService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_services_services__["a" /* ServicesAuth */]])
     ], LoginAfterPage);
     return LoginAfterPage;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=login-after.js.map
 
 /***/ }),
 
-/***/ 133:
+/***/ 132:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReadingPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_reading_internal_reading_internal__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_reading_internal_reading_internal__ = __webpack_require__(133);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -223,7 +172,7 @@ var ReadingPage = /** @class */ (function () {
     };
     ReadingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-reading',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/reading/reading.html"*/'<!--\n  Generated template for the ReadingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n<ion-content >\n    <ion-card class="public-state">\n          \n        <ion-item>\n          <ion-avatar item-start>\n              <img src="assets/imgs/user.png" alt="">\n          </ion-avatar>\n          <h2>En Estado Beta</h2>\n          <p class="date-public">04 Jun 2019</p>\n        </ion-item>  \n        <ion-card-content class="card-post">\n          <p>It won’t be a bigger problem to find one game lover in yor neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological .\n            <a href="#" (click)="goView()">Ver Lectura Completa</a>\n          </p>\n        </ion-card-content>\n      \n        <ion-row>\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-thumbs-up"></ion-icon>\n              <p>Like</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-comment"></ion-icon>\n              <p>Comentar</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-share"></ion-icon>\n              <p>Compartir</p>\n            </button>\n        </ion-row>\n      \n      </ion-card>\n</ion-content>\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/reading/reading.html"*/,
+            selector: 'page-reading',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/reading/reading.html"*/'<!--\n  Generated template for the ReadingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n<ion-content >\n    <ion-card class="public-state">\n          \n        <ion-item>\n          <ion-avatar item-start>\n              <img src="assets/imgs/user.png" alt="">\n          </ion-avatar>\n          <h2>En Estado Beta</h2>\n          <p class="date-public">04 Jun 2019</p>\n        </ion-item>  \n        <ion-card-content class="card-post">\n          <p>It won’t be a bigger problem to find one game lover in yor neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological .\n            <a href="#" (click)="goView()">Ver Lectura Completa</a>\n          </p>\n        </ion-card-content>\n      \n        <ion-row>\n            <button ion-button color="dark" clear>\n              <i class="far fa-thumbs-up"></i>\n              <p>Like</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <i class="far fa-comment"></i>\n              <p>Comentar</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <i class="fas fa-share"></i>\n              <p>Compartir</p>\n            </button>\n        </ion-row>\n      \n      </ion-card>\n</ion-content>\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/reading/reading.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
     ], ReadingPage);
@@ -234,7 +183,7 @@ var ReadingPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 134:
+/***/ 133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -272,7 +221,7 @@ var ReadingInternalPage = /** @class */ (function () {
     };
     ReadingInternalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-reading-internal',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/reading-internal/reading-internal.html"*/'<!--\n  Generated template for the ReadingInternalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n\n<ion-content>\n    <ion-header style="background-image: url(\'assets/imgs/fondo.jpg\');">\n        <div class="nav">\n            <button ion-button class="forget" color="light" clear (click)="goBack()"><ion-icon name="ios-arrow-back-outline" class="arrow-back"></ion-icon>Back</button>\n            <button ion-button class="forget" color="light" clear><ion-icon ios="ios-share" md="md-share" ></ion-icon></button>\n        </div>\n        \n        \n        <h3>Las lecciones de los gigantes digitales</h3>\n        <div class="after">\n\n        </div>\n        </ion-header>\n        <div class="content-text">\n            <div class="perfil-news">\n                <img src="assets/imgs/user.png" alt="">\n                <div>\n                  <p>Publicado por Luis Felix</p>\n                  <p class="hour">Hace 4 horas</p>\n                </div>\n              </div>\n              <p class="text">It won’t be a bigger problem to find one game lover in yor neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological .It won’t be a bigger problem to find one game lover in yor neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological .</p>\n        </div>\n        <div class="ion-row">\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-thumbs-up"></ion-icon>\n              <p>Like</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-comment"></ion-icon>\n              <p>Comentar</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-share"></ion-icon>\n              <p>Compartir</p>\n            </button>\n        </div>\n</ion-content>\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/reading-internal/reading-internal.html"*/,
+            selector: 'page-reading-internal',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/reading-internal/reading-internal.html"*/'<!--\n  Generated template for the ReadingInternalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n\n<ion-content>\n    <ion-header style="background-image: url(\'assets/imgs/fondo.jpg\');">\n        <div class="nav">\n            <button ion-button class="forget" color="light" clear (click)="goBack()"><ion-icon name="ios-arrow-back-outline" class="arrow-back"></ion-icon>Back</button>\n            <button ion-button class="forget" color="light" clear><ion-icon ios="ios-share" md="md-share" ></ion-icon></button>\n        </div>\n        \n        \n        <h3>Las lecciones de los gigantes digitales</h3>\n        <div class="after">\n\n        </div>\n        </ion-header>\n        <div class="content-text">\n            <div class="perfil-news">\n                <img src="assets/imgs/user.png" alt="">\n                <div>\n                  <p>Publicado por Luis Felix</p>\n                  <p class="hour">Hace 4 horas</p>\n                </div>\n              </div>\n              <p class="text">It won’t be a bigger problem to find one game lover in yor neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological .It won’t be a bigger problem to find one game lover in yor neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological neighbor. Since the introduction of Virtual Game, it has achieving great heights so far as its popularity and technological .</p>\n        </div>\n        <div class="ion-row">\n            <button ion-button color="dark" clear>\n              <i class="far fa-thumbs-up"></i>\n              <p>Like</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <i class="far fa-comment"></i>\n              <p>Comentar</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <i class="fas fa-share"></i>\n              <p>Compartir</p>\n            </button>\n        </div>\n</ion-content>\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/reading-internal/reading-internal.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]])
     ], ReadingInternalPage);
@@ -280,6 +229,60 @@ var ReadingInternalPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=reading-internal.js.map
+
+/***/ }),
+
+/***/ 134:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_after_login_after__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_session_service__ = __webpack_require__(54);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the LoginPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var LoginPage = /** @class */ (function () {
+    function LoginPage(navCtrl, navParams, sessionS) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.sessionS = sessionS;
+    }
+    LoginPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LoginPage');
+    };
+    LoginPage.prototype.loginPage = function (index) {
+        this.sessionS.setObject('login', index);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__login_after_login_after__["a" /* LoginAfterPage */]);
+    };
+    LoginPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-login',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/login/login.html"*/'<!--\n  Generated template for the LoginPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content>\n  <div class="container">\n    <img src="assets/imgs/logo.png" alt="">\n    <p>Lo mejor de la innovación <br>\n        en la palma de tu mano</p>\n        <button ion-button class="linkedinButton"> <ion-icon name="logo-linkedin"></ion-icon>  Ingresar con Linkedin</button>\n        <button ion-button color="dark" class="mailButton"  (click)="loginPage(0)">Ingresar con Email</button>\n        <button ion-button class="forget" color="light" clear>Olvide la contraseña</button>\n        <button ion-button class="register" (click)="loginPage(1)">Registrar</button>\n        <p class="terminos">Al registrarte e ingresar estás de acuerdo <br>\n            con nuestros Términos y condiciones</p>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/login/login.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__services_session_service__["a" /* SessionService */]])
+    ], LoginPage);
+    return LoginPage;
+}());
+
+//# sourceMappingURL=login.js.map
 
 /***/ }),
 
@@ -305,11 +308,11 @@ webpackEmptyAsyncContext.id = 145;
 
 var map = {
 	"../pages/login-after/login-after.module": [
-		439,
+		438,
 		4
 	],
 	"../pages/login/login.module": [
-		438,
+		439,
 		3
 	],
 	"../pages/qr/qr.module": [
@@ -350,7 +353,7 @@ module.exports = webpackAsyncContext;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__reading_reading__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__reading_reading__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_session_service__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -454,7 +457,7 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/about/about.html"*/'<ion-content style="padding-top:50px">\n  <ion-card class="public-state">\n          \n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/imgs/user.png" alt="">\n      </ion-avatar>\n      <h2>En Estado Beta</h2>\n      <p class="date-public">04 Jun 2019</p>\n    </ion-item>  \n    <ion-card-content class="card-post">\n      <img src="assets/imgs/test1.jpg" alt="">\n    <div class="treeItems">\n      <div class="day">\n        <p>Enero</p>\n        <h4>25</h4>\n      </div>\n      <div class="name">\n        <p class="nameInter">Bootcamp Cultura y Talento</p>\n        <p class="lugar">Juan de Aliaga 123, Magdalena</p>\n      </div>\n      <div class="button">\n          <button ion-button class="button-inscribir" (click)="inscribe()">Inscribirme</button>\n      </div>\n    </div>\n  </ion-card-content>\n  \n    <ion-row>\n        <button ion-button color="dark" clear>\n          <ion-icon name=i class="fas fa-thumbs-up"></ion-icon>\n          <p>Like</p>\n        </button>\n        <button ion-button color="dark" clear>\n          <ion-icon name=i class="fas fa-comment"></ion-icon>\n          <p>Comentar</p>\n        </button>\n        <button ion-button color="dark" clear>\n          <ion-icon name=i class="fas fa-share"></ion-icon>\n          <p>Compartir</p>\n        </button>\n    </ion-row>\n  \n  </ion-card>\n  <ion-card class="public-state">\n          \n      <ion-item>\n        <ion-avatar item-start>\n          <img src="assets/imgs/user.png" alt="">\n        </ion-avatar>\n        <h2>En Estado Beta</h2>\n        <p class="date-public">04 Jun 2019</p>\n      </ion-item>  \n      <ion-card-content class="card-post">\n        <img src="assets/imgs/test1.jpg" alt="">\n      <div class="treeItems">\n        <div class="day">\n          <p>Enero</p>\n          <h4>25</h4>\n        </div>\n        <div class="name">\n          <p class="nameInter">Bootcamp Cultura y Talento</p>\n          <p class="lugar">Juan de Aliaga 123, Magdalena</p>\n        </div>\n        <div class="button">\n            <button ion-button class="button-inscribir">Inscribirme</button>\n        </div>\n      </div>\n    </ion-card-content>\n    \n      <ion-row>\n          <button ion-button color="dark" clear>\n            <ion-icon name=i class="fas fa-thumbs-up"></ion-icon>\n            <p>Like</p>\n          </button>\n          <button ion-button color="dark" clear>\n            <ion-icon name=i class="fas fa-comment"></ion-icon>\n            <p>Comentar</p>\n          </button>\n          <button ion-button color="dark" clear>\n            <ion-icon name=i class="fas fa-share"></ion-icon>\n            <p>Compartir</p>\n          </button>\n      </ion-row>\n    \n    </ion-card>\n    <ion-card class="public-state">\n          \n        <ion-item>\n          <ion-avatar item-start>\n            <img src="assets/imgs/user.png" alt="">\n          </ion-avatar>\n          <h2>En Estado Beta</h2>\n          <p class="date-public">04 Jun 2019</p>\n        </ion-item>  \n        <ion-card-content class="card-post">\n          <img src="assets/imgs/test1.jpg" alt="">\n        <div class="treeItems">\n          <div class="day">\n            <p>Enero</p>\n            <h4>25</h4>\n          </div>\n          <div class="name">\n            <p class="nameInter">Bootcamp Cultura y Talento</p>\n            <p class="lugar">Juan de Aliaga 123, Magdalena</p>\n          </div>\n          <div class="button">\n              <button ion-button class="button-inscribir">Inscribirme</button>\n          </div>\n        </div>\n      </ion-card-content>\n      \n        <ion-row>\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-thumbs-up"></ion-icon>\n              <p>Like</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-comment"></ion-icon>\n              <p>Comentar</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <ion-icon name=i class="fas fa-share"></ion-icon>\n              <p>Compartir</p>\n            </button>\n        </ion-row>\n      \n      </ion-card>\n      \n</ion-content>\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/about/about.html"*/'<ion-content style="padding-top:50px">\n  <ion-card class="public-state">\n          \n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/imgs/user.png" alt="">\n      </ion-avatar>\n      <h2>En Estado Beta</h2>\n      <p class="date-public">04 Jun 2019</p>\n    </ion-item>  \n    <ion-card-content class="card-post">\n      <img src="assets/imgs/test1.jpg" alt="">\n    <div class="treeItems">\n      <div class="day">\n        <p>Enero</p>\n        <h4>25</h4>\n      </div>\n      <div class="name">\n        <p class="nameInter">Bootcamp Cultura y Talento</p>\n        <p class="lugar">Juan de Aliaga 123, Magdalena</p>\n      </div>\n      <div class="button">\n          <button ion-button class="button-inscribir" (click)="inscribe()">Inscribirme</button>\n      </div>\n    </div>\n  </ion-card-content>\n  \n    <ion-row>\n        <button ion-button color="dark" clear>\n          <i class="far fa-thumbs-up"></i>\n          <p>Like</p>\n        </button>\n        <button ion-button color="dark" clear>\n          <i class="far fa-comment"></i>\n          <p>Comentar</p>\n        </button>\n        <button ion-button color="dark" clear>\n          <i class="fas fa-share"></i>\n          <p>Compartir</p>\n        </button>\n    </ion-row>\n  \n  </ion-card>\n  <ion-card class="public-state">\n          \n      <ion-item>\n        <ion-avatar item-start>\n          <img src="assets/imgs/user.png" alt="">\n        </ion-avatar>\n        <h2>En Estado Beta</h2>\n        <p class="date-public">04 Jun 2019</p>\n      </ion-item>  \n      <ion-card-content class="card-post">\n        <img src="assets/imgs/test1.jpg" alt="">\n      <div class="treeItems">\n        <div class="day">\n          <p>Enero</p>\n          <h4>25</h4>\n        </div>\n        <div class="name">\n          <p class="nameInter">Bootcamp Cultura y Talento</p>\n          <p class="lugar">Juan de Aliaga 123, Magdalena</p>\n        </div>\n        <div class="button">\n            <button ion-button class="button-inscribir">Inscribirme</button>\n        </div>\n      </div>\n    </ion-card-content>\n    \n      <ion-row>\n          <button ion-button color="dark" clear>\n            <i class="far fa-thumbs-up"></i>\n            <p>Like</p>\n          </button>\n          <button ion-button color="dark" clear>\n            <i class="far fa-comment"></i>\n            <p>Comentar</p>\n          </button>\n          <button ion-button color="dark" clear>\n            <i class="fas fa-share"></i>\n            <p>Compartir</p>\n          </button>\n      </ion-row>\n    \n    </ion-card>\n    <ion-card class="public-state">\n          \n        <ion-item>\n          <ion-avatar item-start>\n            <img src="assets/imgs/user.png" alt="">\n          </ion-avatar>\n          <h2>En Estado Beta</h2>\n          <p class="date-public">04 Jun 2019</p>\n        </ion-item>  \n        <ion-card-content class="card-post">\n          <img src="assets/imgs/test1.jpg" alt="">\n        <div class="treeItems">\n          <div class="day">\n            <p>Enero</p>\n            <h4>25</h4>\n          </div>\n          <div class="name">\n            <p class="nameInter">Bootcamp Cultura y Talento</p>\n            <p class="lugar">Juan de Aliaga 123, Magdalena</p>\n          </div>\n          <div class="button">\n              <button ion-button class="button-inscribir">Inscribirme</button>\n          </div>\n        </div>\n      </ion-card-content>\n      \n        <ion-row>\n            <button ion-button color="dark" clear>\n              <i class="far fa-thumbs-up"></i>\n              <p>Like</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <i class="far fa-comment"></i>\n              <p>Comentar</p>\n            </button>\n            <button ion-button color="dark" clear>\n              <i class="fas fa-share"></i>\n              <p>Compartir</p>\n            </button>\n        </ion-row>\n      \n      </ion-card>\n      \n</ion-content>\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__services_session_service__["a" /* SessionService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], AboutPage);
@@ -580,10 +583,9 @@ var ServicesAuth = /** @class */ (function () {
     };
     ServicesAuth = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */]])
     ], ServicesAuth);
     return ServicesAuth;
-    var _a;
 }());
 
 //# sourceMappingURL=services.js.map
@@ -677,10 +679,10 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_reading_reading__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_login_login__ = __webpack_require__(131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_after_login_after__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_reading_internal_reading_internal__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_reading_reading__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_login_login__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_after_login_after__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_reading_internal_reading_internal__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_qr_qr__ = __webpack_require__(260);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_http__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_session_service__ = __webpack_require__(54);
@@ -738,8 +740,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login-after/login-after.module#LoginAfterPageModule', name: 'LoginAfterPage', segment: 'login-after', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/qr/qr.module#QrPageModule', name: 'QrPage', segment: 'qr', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reading-internal/reading-internal.module#ReadingInternalPageModule', name: 'ReadingInternalPage', segment: 'reading-internal', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reading/reading.module#ReadingPageModule', name: 'ReadingPage', segment: 'reading', priority: 'low', defaultHistory: [] }
@@ -813,7 +815,7 @@ var AppSettings = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(254);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(134);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
