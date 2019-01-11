@@ -1,23 +1,23 @@
 <ion-content style="padding-top:50px">
-  <ion-card class="public-state">
+  <ion-card class="public-state" *ngFor="let events of listEvents">
           
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/imgs/user.png" alt="">
       </ion-avatar>
       <h2>En Estado Beta</h2>
-      <p class="date-public">04 Jun 2019</p>
+      <p class="date-public">{{events.created_at | date : 'dd MMM yyyy'}}</p>
     </ion-item>  
     <ion-card-content class="card-post">
-      <img src="assets/imgs/test1.jpg" alt="">
+      <img src="{{events.image}}" alt="">
     <div class="treeItems">
       <div class="day">
-        <p>Enero</p>
-        <h4>25</h4>
+        <p>{{events.date_start | date : 'MMM'}}</p>
+        <h4>{{events.date_start | date : 'dd'}}</h4>
       </div>
       <div class="name">
-        <p class="nameInter">Bootcamp Cultura y Talento</p>
-        <p class="lugar">Juan de Aliaga 123, Magdalena</p>
+        <p class="nameInter">{{events.name}}</p>
+        <p class="lugar">{{events.address}}</p>
       </div>
       <div class="button">
           <button ion-button class="button-inscribir" (click)="inscribe()">Inscribirme</button>
@@ -41,6 +41,7 @@
     </ion-row>
   
   </ion-card>
+<<<<<<< HEAD
   <ion-card class="public-state">
           
       <ion-item>
@@ -126,4 +127,6 @@
       
       </ion-card>
       
+=======
+>>>>>>> a2703c03f25a78e9dd368b6bc43134f6aa2a06ae
 </ion-content>

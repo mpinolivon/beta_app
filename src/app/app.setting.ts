@@ -7,6 +7,7 @@ export class AppSettings {
 	public static TEAMS = 'teams';
 	public static QUESTIONS = 'questions';
 	public static LOGIN = 'api/oauth/token';
+	public static EVENTS = 'api/event';
 	public static CREATE_USER = 'api/user';
 	public static ROLES = { 'Admin': 0,	'Manager': 1, 'Player': 2, };
 }

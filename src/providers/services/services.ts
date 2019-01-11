@@ -28,4 +28,9 @@ export class ServicesAuth {
     .pipe(map(data => data.json()));
   }
 
+  listEvents(params){
+    return this.http.get(AppSettings.BASE+AppSettings.EVENTS, params)
+    .pipe(map(data => data.json()));
+  }
+
 }
