@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 441:
+/***/ 442:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27,7 +27,7 @@ var ReadingInternalPageModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2__reading_internal__["a" /* ReadingInternalPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__reading_internal__["a" /* ReadingInternalPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__reading_internal__["a" /* ReadingInternalPage */]),
             ],
         })
     ], ReadingInternalPageModule);

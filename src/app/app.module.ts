@@ -23,6 +23,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ServicesAuth } from '../providers/services/services';
 import { HttpClientModule } from '@angular/common/http';
+import { SocialSharing } from '@ionic-native/social-sharing';
+
 
 @NgModule({
   declarations: [
@@ -64,6 +66,7 @@ import { HttpClientModule } from '@angular/common/http';
     BarcodeScanner,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ServicesAuth,
+    SocialSharing
   ]
 })
 export class AppModule {}

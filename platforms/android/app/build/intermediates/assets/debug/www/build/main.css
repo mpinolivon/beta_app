@@ -31389,6 +31389,7 @@ page-about .public-state .date-public {
 page-about .scroll-content {
   margin-top: 69px;
   margin-bottom: 69px !important;
+  padding-bottom: 60px !important;
 }
 
 page-about .card-post {

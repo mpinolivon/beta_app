@@ -66,6 +66,12 @@ page-about {
     }
     .public-state {
         ion-row {
+            .active {
+                color: rgb(115 ,27 ,115) !important;
+                p {
+                    color: rgb(115 ,27 ,115) !important;
+                }
+            }
             button {
                 margin: 0;
                 width: 33.33%;

@@ -30,7 +30,7 @@
   
     <ion-row>
 
-        <button ion-button color="dark" clear style="margin-bottom: 8px;">
+        <button ion-button color="dark" clear style="margin-bottom: 8px;" [ngClass]=" {'active' :  events.liked == 1}" (click)="like(events)">
           <i class="far fa-thumbs-up"></i>
           <p>Like</p>
         </button>
@@ -38,12 +38,18 @@
           <i class="far fa-comment"></i>
           <p>Comentar</p>
         </button>
-        <button ion-button color="dark" clear style="margin-bottom: 8px;">
+        <button ion-button color="dark" clear style="margin-bottom: 8px;" (click)="share(events)">
           <i class="far fa-share-square"></i>
           <p>Compartir</p>
         </button>
     </ion-row>
-  
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/user.png" alt="">
+      </ion-avatar>
+      <h2>En Estado Beta</h2>
+      <p class="date-public">{{events.created_at | date : 'dd MMM yyyy'}}</p>
+    </ion-item> 
   </ion-card>
 
   

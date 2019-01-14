@@ -21,7 +21,7 @@ export class MyApp {
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, sessionS:SessionService) {
     platform.ready().then(() => {
-      if (sessionS.getObject('answertoken')) {
+      if (sessionS.getObject('user')) {
         this.rootPage = TabsPage;
       }else {
         this.rootPage = LoginPage;
