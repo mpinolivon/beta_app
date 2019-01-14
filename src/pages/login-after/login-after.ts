@@ -82,7 +82,7 @@ export class LoginAfterPage {
     }
     else{
       console.log('asdasd');
-      alert('Correo no válido');
+      // alert('Correo no válido');
     }      
 
   }
