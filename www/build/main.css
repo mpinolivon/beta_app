@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -25675,10 +25674,6 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-* {
-  font-family: 'Lato', sans-serif;
-}
-
 .fa,
 .fas,
 .user,
@@ -31289,6 +31284,16 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands';
 }
 
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(../assets/fonts/helvetica/HelveticaNeue-LightExt.woff) format("ttf");
+  font-weight: 200;
+}
+
+body {
+  font-family: HelveticaNeue !important;
+}
+
 .user:before {
   content: "\f007";
 }
@@ -31344,9 +31349,37 @@ ion-item .date-public {
   font-weight: 300;
 }
 
+.scroll-content {
+  height: calc(100vh - 80px);
+  padding-bottom: 0 !important;
+}
+
+.tabbar {
+  background: rgba(248, 248, 248, 0.77) !important;
+}
+
+page-about .public-state {
+  padding-top: 15px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+}
+
+page-about .public-state h2 {
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+page-about .public-state .date-public {
+  font-size: 10px;
+}
+
 page-about .scroll-content {
   margin-top: 69px;
   margin-bottom: 69px !important;
+}
+
+page-about .card-post {
+  padding: 0px 10px 0px 10px;
 }
 
 page-about .treeItems {
@@ -31362,6 +31395,7 @@ page-about .treeItems {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 0px 0px 0px 15px;
 }
 
 page-about .treeItems div p {
@@ -31373,12 +31407,13 @@ page-about .treeItems .day {
 }
 
 page-about .treeItems .day p {
-  font-size: 10px;
+  font-size: 13px;
   color: #7836bb;
+  font-weight: 400;
 }
 
 page-about .treeItems .day h4 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 23px;
 }
 
@@ -31387,20 +31422,38 @@ page-about .treeItems .name {
 }
 
 page-about .treeItems .name .nameInter {
-  font-size: 14.5px;
-  font-weight: 500;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 page-about .treeItems .name .lugar {
-  font-size: 13px;
+  font-size: 12px;
+  color: #777777;
 }
 
 page-about .treeItems .button-inscribir {
   text-transform: capitalize;
-  background: purple;
+  background: #8748c6;
   border-radius: 40px;
   font-size: 12px;
   height: 24px !important;
+}
+
+page-about .public-state ion-row button {
+  margin: 0;
+  width: 33.33%;
+  border: none !important;
+  color: #a0a0a0;
+  height: 32px;
+  border-radius: 0px;
+}
+
+page-about .public-state ion-row button p {
+  font-size: 13px;
+  color: #a0a0a0;
+  margin-bottom: 0px;
+  font-weight: 300;
 }
 
 
@@ -31416,7 +31469,6 @@ page-contact .scroll-content {
 
 page-home .scroll-content {
   margin-top: 80px;
-  padding-bottom: 30px !important;
 }
 
 page-home .swiper-container {

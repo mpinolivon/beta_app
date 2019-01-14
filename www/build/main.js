@@ -399,11 +399,11 @@ var map = {
 		2
 	],
 	"../pages/reading-internal/reading-internal.module": [
-		441,
+		442,
 		1
 	],
 	"../pages/reading/reading.module": [
-		442,
+		441,
 		0
 	]
 };
@@ -471,7 +471,7 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/Users/RSL/Desktop/MONEY/beta_app/src/pages/about/about.html"*/'<ion-content style="padding-top:50px">\n  <ion-card class="public-state" *ngFor="let events of listEvents">\n          \n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/imgs/user.png" alt="">\n      </ion-avatar>\n      <h2>En Estado Beta</h2>\n      <p class="date-public">{{events.created_at | date : \'dd MMM yyyy\'}}</p>\n    </ion-item>  \n    <ion-card-content class="card-post">\n      <img src="{{events.image}}" alt="">\n    <div class="treeItems">\n      <div class="day">\n        <p>{{events.date_start | date : \'MMM\'}}</p>\n        <h4>{{events.date_start | date : \'dd\'}}</h4>\n      </div>\n      <div class="name">\n        <p class="nameInter">{{events.name}}</p>\n        <p class="lugar">{{events.address}}</p>\n      </div>\n      <div class="button">\n          <button ion-button class="button-inscribir" (click)="inscribe()">Inscribirme</button>\n      </div>\n    </div>\n  </ion-card-content>\n  \n    <ion-row>\n        <button ion-button color="dark" clear>\n          <ion-icon name=i class="fas fa-thumbs-up"></ion-icon>\n          <p>Like</p>\n        </button>\n        <button ion-button color="dark" clear>\n          <ion-icon name=i class="fas fa-comment"></ion-icon>\n          <p>Comentar</p>\n        </button>\n        <button ion-button color="dark" clear>\n          <ion-icon name=i class="fas fa-share"></ion-icon>\n          <p>Compartir</p>\n        </button>\n    </ion-row>\n  \n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/RSL/Desktop/MONEY/beta_app/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/Users/RSL/Desktop/MONEY/beta_app/src/pages/about/about.html"*/'<ion-content style="padding-top:50px">\n  <ion-card class="public-state" *ngFor="let events of listEvents">\n          \n    <ion-item>\n      <ion-avatar item-start>\n        <img src="assets/imgs/user.png" alt="">\n      </ion-avatar>\n      <h2>En Estado Beta</h2>\n      <p class="date-public">{{events.created_at | date : \'dd MMM yyyy\'}}</p>\n    </ion-item>  \n    <ion-card-content class="card-post">\n      <img src="{{events.image}}" alt="">\n    <div class="treeItems">\n      <div class="day">\n        <p>{{events.date_start | date : \'MMM\'}}</p>\n        <h4>{{events.date_start | date : \'dd\'}}</h4>\n      </div>\n      <div class="name">\n        <p class="nameInter">{{events.name}}</p>\n        <p class="lugar">{{events.address}}</p>\n      </div>\n      <div class="button">\n          <button ion-button class="button-inscribir" (click)="inscribe()">Inscribirme</button>\n      </div>\n    </div>\n  </ion-card-content>\n  \n    <ion-row>\n        <button ion-button color="dark" clear style="margin-bottom: 8px;">\n          <ion-icon name=i class="fas fa-thumbs-up"></ion-icon>\n          <p>Like</p>\n        </button>\n        <button ion-button color="dark" clear style="border-right: 1px solid #efefef !important;margin-bottom: 8px;border-left: 1px solid #efefef !important;">\n          <ion-icon name=i class="fas fa-comment"></ion-icon>\n          <p>Comentar</p>\n        </button>\n        <button ion-button color="dark" clear style="margin-bottom: 8px;">\n          <ion-icon name=i class="fas fa-share"></ion-icon>\n          <p>Compartir</p>\n        </button>\n    </ion-row>\n  \n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/RSL/Desktop/MONEY/beta_app/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__services_session_service__["a" /* SessionService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_3__providers_services_services__["a" /* ServicesAuth */]])
     ], AboutPage);
@@ -703,8 +703,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/login-after/login-after.module#LoginAfterPageModule', name: 'LoginAfterPage', segment: 'login-after', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/qr/qr.module#QrPageModule', name: 'QrPage', segment: 'qr', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/reading-internal/reading-internal.module#ReadingInternalPageModule', name: 'ReadingInternalPage', segment: 'reading-internal', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/reading/reading.module#ReadingPageModule', name: 'ReadingPage', segment: 'reading', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/reading/reading.module#ReadingPageModule', name: 'ReadingPage', segment: 'reading', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/reading-internal/reading-internal.module#ReadingInternalPageModule', name: 'ReadingInternalPage', segment: 'reading-internal', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_15_ngx_qrcode2__["a" /* NgxQRCodeModule */],
