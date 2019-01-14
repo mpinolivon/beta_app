@@ -31273,6 +31273,19 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/webfonts/fa-regular-400.eot");
+  src: url("../assets/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../assets/webfonts/fa-regular-400.woff2") format("woff2"), url("../assets/webfonts/fa-regular-400.woff") format("woff"), url("../assets/webfonts/fa-regular-400.ttf") format("truetype"), url("../assets/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+@font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
   font-weight: normal;
@@ -31407,7 +31420,7 @@ page-about .treeItems .day {
 }
 
 page-about .treeItems .day p {
-  font-size: 10px;
+  font-size: 13px;
   color: #7836bb;
   font-weight: 400;
 }
@@ -31449,10 +31462,15 @@ page-about .public-state ion-row button {
   border-radius: 0px;
 }
 
+page-about .public-state ion-row button p {
+  font-size: 13px;
+  color: #a0a0a0;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
 
-.fas,
-.user {
-  font-size: 10px;
+.far {
+  font-size: 11px;
 }
 
 page-contact .scroll-content {

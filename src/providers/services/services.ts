@@ -33,4 +33,10 @@ export class ServicesAuth {
     .pipe(map(data => data.json()));
   }
 
+  
+inscribedEvent(header,params){
+    return this.http.post(AppSettings.BASE+AppSettings.INSCRIBED, header,params)
+    .pipe(map(data => data.json()));
+  }
+
 }
