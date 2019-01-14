@@ -160,7 +160,7 @@ var LoginAfterPage = /** @class */ (function () {
         }
         else {
             console.log('asdasd');
-            alert('Correo no válido');
+            // alert('Correo no válido');
         }
     };
     LoginAfterPage.prototype.createuser = function () {
@@ -195,13 +195,10 @@ var LoginAfterPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-login-after',template:/*ion-inline-start:"/home/manuel/Escritorio/beta_app/src/pages/login-after/login-after.html"*/'<!--\n  Generated template for the LoginAfterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content>\n  <div class="header-logo">\n      <img src="assets/imgs/logo.png" alt="" width="300px">\n  </div>\n  <div class="content-login" *ngIf="loginSession == 0">\n      <input [(ngModel)]=\'userparameters.username\' type="text" placeholder="Email">\n      <input [(ngModel)]=\'userparameters.password\' type="password" placeholder="Contraseña">\n      <button ion-button class="goLogin" (click)="login()" >Ingresar</button>\n      <button ion-button class="goLogin goBack" (click)="goBack()">Regresar</button>\n  </div>\n\n  <div class="content-login-register" *ngIf="loginSession == 1">\n      <input [(ngModel)]=\'usernewparameters.name\' type="text" placeholder="Nombre">\n      <input [(ngModel)]=\'usernewparameters.lastname\'type="text" placeholder="Apellido">\n      <input type="text" [(ngModel)]=\'usernewparameters.email\' placeholder="Email">\n      <input type="password" [(ngModel)]=\'usernewparameters.password\' placeholder="Contraseña">\n      <input type="password" [(ngModel)]=\'usernewparameters.password_confirmation\' placeholder="Repetir contraseña">\n      <button ion-button class="goLogin" (click)="createuser()" >Aceptar y Ingresar</button>\n      <button ion-button class="goLogin goBack" (click)="goBack()" >Regresar</button>\n  </div>\n  \n</ion-content>\n\n\n'/*ion-inline-end:"/home/manuel/Escritorio/beta_app/src/pages/login-after/login-after.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__services_session_service__["a" /* SessionService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_services_services__["a" /* ServicesAuth */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__services_session_service__["a" /* SessionService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_session_service__["a" /* SessionService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_4__providers_services_services__["a" /* ServicesAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_services_services__["a" /* ServicesAuth */]) === "function" && _e || Object])
     ], LoginAfterPage);
     return LoginAfterPage;
+    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=login-after.js.map
