@@ -36,12 +36,12 @@
         "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/677010709613958a28d02987350a8536/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
-        "source": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
-    },
-    {
         "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxxhdpi_screen.png.flat",
         "source": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
+        "source": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
     },
     {
         "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/layout_search_book_contents_list_item.xml.flat",
@@ -64,12 +64,12 @@
         "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/res/layout-ldpi/capture.xml"
     },
     {
-        "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/baa82212597f7440246b2a52154524f9/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
-    },
-    {
         "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_launcher_icon.png.flat",
         "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/res/drawable-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/baa82212597f7440246b2a52154524f9/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
@@ -176,12 +176,12 @@
         "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/res/layout/history_list_item.xml"
     },
     {
-        "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
-        "source": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
-    },
-    {
         "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/menu_encode.xml.flat",
         "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/res/menu/encode.xml"
+    },
+    {
+        "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
+        "source": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
     },
     {
         "merged": "/Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",

@@ -12,6 +12,8 @@ import { LoginPage } from '../pages/login/login';
 import { LoginAfterPage } from '../pages/login-after/login-after';
 import { ReadingInternalPage } from '../pages/reading-internal/reading-internal';
 import { QrPage } from '../pages/qr/qr';
+import { ComentPage } from '../pages/coment/coment';
+
 
 import { HttpModule, Headers, RequestOptions, Http } from '@angular/http';
 
@@ -24,6 +26,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { ServicesAuth } from '../providers/services/services';
 import { HttpClientModule } from '@angular/common/http';
 import { SocialSharing } from '@ionic-native/social-sharing';
+import { LinkedIn } from '@ionic-native/linkedin';
 
 
 @NgModule({
@@ -37,7 +40,8 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     LoginPage,
     LoginAfterPage,
     ReadingInternalPage,
-    QrPage
+    QrPage,
+    ComentPage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +61,8 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     LoginPage,
     LoginAfterPage,
     ReadingInternalPage,
-    QrPage
+    QrPage,
+    ComentPage
   ],
   providers: [
     StatusBar,
@@ -66,7 +71,8 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     BarcodeScanner,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ServicesAuth,
-    SocialSharing
+    SocialSharing,
+    LinkedIn
   ]
 })
 export class AppModule {}

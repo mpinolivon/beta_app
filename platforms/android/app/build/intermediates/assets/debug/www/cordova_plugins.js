@@ -61,6 +61,14 @@ module.exports = [
     "clobbers": [
       "window.plugins.socialsharing"
     ]
+  },
+  {
+    "id": "cordova-plugin-linkedin.LinkedIn",
+    "file": "plugins/cordova-plugin-linkedin/www/LinkedIn.js",
+    "pluginId": "cordova-plugin-linkedin",
+    "clobbers": [
+      "cordova.plugins.LinkedIn"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -74,7 +82,8 @@ module.exports.metadata =
   "cordova-plugin-ionic-keyboard": "2.1.3",
   "phonegap-plugin-barcodescanner": "8.0.1",
   "es6-promise-plugin": "4.2.2",
-  "cordova-plugin-x-socialsharing": "5.4.4"
+  "cordova-plugin-x-socialsharing": "5.4.4",
+  "cordova-plugin-linkedin": "1.2.1"
 };
 // BOTTOM OF METADATA
 });

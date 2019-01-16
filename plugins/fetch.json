@@ -74,5 +74,15 @@
     },
     "is_top_level": false,
     "variables": {}
+  },
+  "cordova-plugin-linkedin": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-linkedin"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "78q6rn6nxdeqkf"
+    }
   }
 }

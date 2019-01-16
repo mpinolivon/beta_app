@@ -28,13 +28,12 @@
     </div>
   </ion-card-content>
   
-    <ion-row>
-
+    <ion-row  [ngClass]=" {'border' :  events.last_comment == null}">
         <button ion-button color="dark" clear style="margin-bottom: 8px;" [ngClass]=" {'active' :  events.liked == 1}" (click)="like(events)">
           <i class="far fa-thumbs-up"></i>
           <p>Like</p>
         </button>
-        <button ion-button color="dark" clear style="border-right: 1px solid #efefef !important;margin-bottom: 8px;border-left: 1px solid #efefef !important;">
+        <button ion-button (click)="coment()" color="dark" clear style="border-right: 1px solid #efefef !important;margin-bottom: 8px;border-left: 1px solid #efefef !important;">
           <i class="far fa-comment"></i>
           <p>Comentar</p>
         </button>
@@ -43,13 +42,16 @@
           <p>Compartir</p>
         </button>
     </ion-row>
-    <ion-item>
-      <ion-avatar item-start>
-        <img src="assets/imgs/user.png" alt="">
-      </ion-avatar>
-      <h2>En Estado Beta</h2>
-      <p class="date-public">{{events.created_at | date : 'dd MMM yyyy'}}</p>
-    </ion-item> 
+    <div>
+      <ion-item>
+        <ion-avatar item-start style="margin: 8px 2px 8px 0;min-width:33px !important;display: flex;align-items: center;">
+          <img src="assets/imgs/user.png" alt="" style="width: 30px;height: auto;">
+        </ion-avatar>
+        <h2 style="font-size: 12px;">En Estado Beta</h2>
+        <p style="font-size: 10px;" class="date-public">{{events.created_at | date : 'dd MMM yyyy'}}</p>
+      </ion-item>
+      <p style="padding: 0px 17px 10px 17px; color:rgb(134, 134, 134); font-size: 11px;">It won’t be a bigger problem to find one game lover in yor neighbor. Since the introduction of Virtual Game.</p> 
+    </div>
   </ion-card>
 
   

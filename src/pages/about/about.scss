@@ -65,6 +65,12 @@ page-about {
         }
     }
     .public-state {
+        .border {
+            button {
+                border-bottom: 1px solid #efefef;
+            }
+            
+        }
         ion-row {
             .active {
                 color: rgb(115 ,27 ,115) !important;
@@ -75,7 +81,7 @@ page-about {
             button {
                 margin: 0;
                 width: 33.33%;
-                border: none !important;
+                border: none ;
                 color: #a0a0a0;
                 height: 32px;
                 border-radius: 0px;

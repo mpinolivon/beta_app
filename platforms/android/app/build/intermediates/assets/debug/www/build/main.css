@@ -31454,10 +31454,22 @@ page-about .treeItems .button-inscribir {
   height: 24px !important;
 }
 
+page-about .public-state .border button {
+  border-bottom: 1px solid #efefef;
+}
+
+page-about .public-state ion-row .active {
+  color: #731b73 !important;
+}
+
+page-about .public-state ion-row .active p {
+  color: #731b73 !important;
+}
+
 page-about .public-state ion-row button {
   margin: 0;
   width: 33.33%;
-  border: none !important;
+  border: none;
   color: #a0a0a0;
   height: 32px;
   border-radius: 0px;
