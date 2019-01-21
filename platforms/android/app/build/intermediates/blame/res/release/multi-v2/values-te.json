@@ -11,6 +11,47 @@
                         "startOffsets": "55",
                         "endColumns": "100",
                         "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "409",
+                        "endColumns": "100",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.2.aar/a75fbdbeb4806cf6c83e4ce35518b7ed/res/values-te/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "198",
+                        "endOffsets": "483"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "198",
+                        "endOffsets": "299"
+                    }
+                },
+                {
+                    "source": "/Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/res/values-te/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "243",
+                        "endColumns": "100",
+                        "endOffsets": "343"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "304",
+                        "endColumns": "104",
+                        "endOffsets": "404"
                     }
                 }
             ]

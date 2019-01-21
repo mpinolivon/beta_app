@@ -18,6 +18,7 @@
   </div>
   <h3 *ngIf="isLoggedIn==true">
     <ul>
+      <input type="text" [(ngModel)]="hola">
       <li>{{hola}}</li>
         <li>ID: {{selfData.id}}</li>
         <li>First Name: {{selfData.firstName}}</li>

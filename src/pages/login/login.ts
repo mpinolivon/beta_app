@@ -33,6 +33,7 @@ export class LoginPage {
   //         this.getSelfData();
   //     }
   // });
+  this.hola = this.sessionS.getObject('device')
     console.log('ionViewDidLoad LoginPage');
   }
 

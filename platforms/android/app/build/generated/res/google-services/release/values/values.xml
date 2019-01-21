@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">27203524543-s8h6u2k1aslmkro4sing9pfuqqndvjfc.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://enestadobeta.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">27203524543</string>
+    <string name="google_api_key" translatable="false">AIzaSyC1Mb4E3Z2-TcZu_4gdmk4kR0V8Ruviu8E</string>
+    <string name="google_app_id" translatable="false">1:27203524543:android:e6a71042d7e69493</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC1Mb4E3Z2-TcZu_4gdmk4kR0V8Ruviu8E</string>
+    <string name="google_storage_bucket" translatable="false">enestadobeta.appspot.com</string>
+    <string name="project_id" translatable="false">enestadobeta</string>
+</resources>

@@ -27,6 +27,8 @@ import { ServicesAuth } from '../providers/services/services';
 import { HttpClientModule } from '@angular/common/http';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { LinkedIn } from '@ionic-native/linkedin';
+import { Push } from '@ionic-native/push';
+
 
 
 @NgModule({
@@ -72,7 +74,8 @@ import { LinkedIn } from '@ionic-native/linkedin';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ServicesAuth,
     SocialSharing,
-    LinkedIn
+    LinkedIn,
+    Push,
   ]
 })
 export class AppModule {}
