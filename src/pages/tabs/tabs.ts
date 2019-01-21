@@ -21,9 +21,15 @@ export class TabsPage {
   tab4Root = ReadingPage;
   public menuAppear = 'none';
   public inscript = '';
+  public user:any;
+
+  public nameUser:any;
 
   constructor(public sessionS:SessionService, public events: Events, public services:ServicesAuth) {
     this.sessionS.setObject('paramInscrip','none')
+    this.user = this.sessionS.getObject('user').data;
+    this.nameUser = this.user.name.split(" ")[0] + " " +this.user.lastname.split(" ")[0];
+    console.log(this.nameUser)
     this.inscript = this.sessionS.getObject('paramInscrip');
     events.subscribe('user:login', () => {
       this.inscribe();

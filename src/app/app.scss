@@ -15,10 +15,10 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
-* {
-    font-family: 'Lato', sans-serif;
-}
+// @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+// * {
+//     font-family: 'Lato', sans-serif;
+// }
 
 
 @import "./assets/scss/fontawesome.scss";
@@ -26,6 +26,26 @@
 @import "./assets/scss/regular.scss";
 @import "./assets/scss/brands.scss";
 
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../assets/fonts/helvetica/HelveticaNeue-LightExt.woff) format("ttf");
+    font-weight: 200
+    }
+@font-face {
+    font-family: Avenir;
+    src: url(../assets/fonts/Avenir/Avenir.ttf) format("ttf");
+    font-weight: 200
+}
+
+@font-face {
+    font-family: OldLondon;
+    src: url(../assets/fonts/old_london/OldLondon.ttf) format("ttf");
+    font-weight: 200
+}
+
+    body {
+        font-family: HelveticaNeue;
+    }
 .user {
     @extend %fa-icon;
     @extend .fas;
@@ -74,4 +94,14 @@ ion-item {
         font-weight: 300;
     }
     font-weight: 300;
+}
+
+
+.scroll-content {
+    height: calc(100vh - 80px);
+    padding-bottom: 0 !important;
+}
+
+.tabbar {
+    background: rgba(248, 248, 248, 0.77) !important;
 }

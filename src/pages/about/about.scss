@@ -1,14 +1,41 @@
 page-about {
-    
+    .toolbar-background {
+        background: white;
+    }
 
+    .segment-button.segment-activated {
+        border-color: #8742c9 !important;
+    }
+    .segment-button{
+        color: #8742c9 !important;
+    }
+
+    .public-state {
+        padding-top: 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+        h2 {
+            color: rgb(74, 74 ,74);
+            font-size: 14px;
+        }
+        .date-public {
+            font-size: 10px;
+        }
+    }
     .scroll-content {
         margin-top: 69px;
         margin-bottom: 69px !important;
+        padding-bottom: 60px !important;
     }
+
+    .card-post {
+        padding: 0px 10px 0px 10px;
+    }
+
     .treeItems {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 0px 0px 0px 15px;
         div {
             p {
                 margin: 0;
@@ -17,34 +44,69 @@ page-about {
         .day {
             text-align: center;
             p {
-                font-size: 10px;
-                color: rgb( 120, 54, 187 );
+                font-size: 13px;
+                color: rgb(120, 54, 187);
+                font-weight: 400;            
             }
             h4 {
-                font-weight: 700;
+                font-weight: 400;
                 font-size: 23px;
             }
         }
         .name {
             padding: 10px;
             .nameInter {
-                font-size: 14.5px;
-                font-weight: 500;
+                color: #4a4a4a;
+                font-size: 14px;
+                font-weight: 400;
             }
             .lugar {
-                font-size: 13px;
+                font-size: 12px;
+                color: rgb(119, 119, 119);
             }
         }
 
         .button-inscribir {
             text-transform: capitalize;
-            background: purple;
+            background: #8748c6;
             border-radius: 40px;
             font-size: 12px;
             height: 24px !important;
         }
     }
+    .public-state {
+        .border {
+            button {
+                border-bottom: 1px solid #efefef;
+            }
+            
+        }
+        ion-row {
+            .active {
+                color: rgb(115 ,27 ,115) !important;
+                p {
+                    color: rgb(115 ,27 ,115) !important;
+                }
+            }
+            button {
+                margin: 0;
+                width: 33.33%;
+                border: none ;
+                color: #a0a0a0;
+                height: 32px;
+                border-radius: 0px;
+                p {
+                    font-size: 13px;
+                    color: #a0a0a0;
+                    margin-bottom: 0px;
+                    font-weight: 300;
+                }
+            }
+    
+        }
+    }
 }
+
 
 
 

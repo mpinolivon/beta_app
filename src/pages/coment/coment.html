@@ -1,0 +1,35 @@
+<!--
+  Generated template for the ComentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content >
+
+  <ion-header>
+      <button (click)="dismissPages()" ion-button color="dark" clear><i class="fas fa-angle-left"></i></button>
+      <h3>Comenetarios</h3>
+      <span></span>
+  </ion-header>
+
+
+  <ion-card class="cardComent" *ngFor="let coments of listComent">
+        <div style="border-radius: 16px;margin-bottom: 10px;">
+            <ion-item style="background:none !important;">
+                <ion-avatar item-start style="margin: 8px 2px 8px 0;min-width:33px !important;display: flex;align-items: center;">
+                  <img src="{{coments.user.avatar}}" alt="" style="width: 30px;height: auto;">
+                </ion-avatar>
+                <h2 style="font-size: 13px;">{{coments.user.name}}</h2>
+                <p style="font-size: 11px;" class="date-public">{{coments .created_at | date : 'dd MMM yyyy'}}</p>
+              </ion-item>
+              <p style="padding: 0px 17px 10px 17px;color:rgb(134, 134, 134);font-size: 13px;margin-top: -2px;">{{coments.text}}</p> 
+            </div>
+          </ion-card>
+        
+</ion-content>
+
+<div class="coment-Input">
+    <ion-input type="text" value="" placeholder="Escribe tu comentario" [(ngModel)]="comentText"></ion-input>
+    <button ion-button color="dark" clear (click)="sendComent()"><ion-icon name="md-send"></ion-icon></button>  
+</div>

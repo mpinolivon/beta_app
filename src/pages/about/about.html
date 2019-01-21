@@ -1,4 +1,15 @@
 <ion-content style="padding-top:50px">
+
+    <ion-toolbar style="width: 90%;margin: auto;">
+        <ion-segment [(ngModel)]="segmentos">
+          <ion-segment-button value="events">
+            Eventos disponibles
+          </ion-segment-button>
+          <ion-segment-button value="history">
+            Historial de eventos
+          </ion-segment-button>
+        </ion-segment>
+      </ion-toolbar>
   <ion-card class="public-state" *ngFor="let events of listEvents">
           
     <ion-item>
@@ -20,111 +31,39 @@
         <p class="lugar">{{events.address}}</p>
       </div>
       <div class="button">
-          <button ion-button class="button-inscribir" (click)="inscribe()">Inscribirme</button>
+          <button ion-button class="button-inscribir" (click)="inscribe(events)" *ngIf="events.enrolled == null">Inscribirme</button>
+          <button ion-button class="button-inscribir" (click)="inscribe2(events)" *ngIf="events.enrolled == 0" style="background:#f7412d !important;">Cancelado</button>
+          <button ion-button class="button-inscribir" (click)="inscribeDelete(events)" *ngIf="events.enrolled == 1" style="background:black !important;"> <i class="fas fa-check" style="margin-right: 5px;"></i>Inscrito</button>
+          <button ion-button class="button-inscribir" (click)="inscribe(events)" *ngIf="events.enrolled == 2" style="background:#fba852 !important;"> <i class="far fa-clock" style="margin-right: 5px;"></i>En espera</button>
       </div>
     </div>
   </ion-card-content>
   
-    <ion-row>
-        <button ion-button color="dark" clear>
+    <ion-row  [ngClass]=" {'border' :  events.last_comment != null}">
+        <button ion-button color="dark" clear style="margin-bottom: 8px;" [ngClass]=" {'active' :  events.liked == 1}" (click)="like(events)">
           <i class="far fa-thumbs-up"></i>
           <p>Like</p>
         </button>
-        <button ion-button color="dark" clear>
+        <button ion-button (click)="coment(events)" color="dark" clear style="border-right: 1px solid #efefef !important;margin-bottom: 8px;border-left: 1px solid #efefef !important;">
           <i class="far fa-comment"></i>
           <p>Comentar</p>
         </button>
-        <button ion-button color="dark" clear>
+        <button ion-button color="dark" clear style="margin-bottom: 8px;" (click)="share(events)">
           <i class="far fa-share-square"></i>
           <p>Compartir</p>
         </button>
     </ion-row>
-  
+    <div *ngIf="events.last_comment != null">
+      <ion-item>
+        <ion-avatar item-start style="margin: 8px 2px 8px 0;min-width:33px !important;display: flex;align-items: center;">
+          <img src="{{events.last_comment.user.avatar}}" alt="" style="width: 30px;height: auto;">
+        </ion-avatar>
+        <h2 style="font-size: 12px;">{{events.last_comment.user.name}}</h2>
+        <p style="font-size: 10px;" class="date-public">{{events.last_comment.created_at | date : 'dd MMM yyyy'}}</p>
+      </ion-item>
+      <p style="padding: 0px 17px 10px 17px; color:rgb(134, 134, 134); font-size: 11px;">{{events.last_comment.text}}</p> 
+    </div>
   </ion-card>
 
-  <ion-card class="public-state">
-          
-      <ion-item>
-        <ion-avatar item-start>
-          <img src="assets/imgs/user.png" alt="">
-        </ion-avatar>
-        <h2>En Estado Beta</h2>
-        <p class="date-public">04 Jun 2019</p>
-      </ion-item>  
-      <ion-card-content class="card-post">
-        <img src="assets/imgs/test1.jpg" alt="">
-      <div class="treeItems">
-        <div class="day">
-          <p>Enero</p>
-          <h4>25</h4>
-        </div>
-        <div class="name">
-          <p class="nameInter">Bootcamp Cultura y Talento</p>
-          <p class="lugar">Juan de Aliaga 123, Magdalena</p>
-        </div>
-        <div class="button">
-            <button ion-button class="button-inscribir">Inscribirme</button>
-        </div>
-      </div>
-    </ion-card-content>
-    
-      <ion-row>
-          <button ion-button color="dark" clear>
-            <i class="far fa-thumbs-up"></i>
-            <p>Like</p>
-          </button>
-          <button ion-button color="dark" clear>
-            <i class="far fa-comment"></i>
-            <p>Comentar</p>
-          </button>
-          <button ion-button color="dark" clear>
-            <i class="far fa-share-square"></i>
-            <p>Compartir</p>
-          </button>
-      </ion-row>
-    
-    </ion-card>
-    <ion-card class="public-state">
-          
-        <ion-item>
-          <ion-avatar item-start>
-            <img src="assets/imgs/user.png" alt="">
-          </ion-avatar>
-          <h2>En Estado Beta</h2>
-          <p class="date-public">04 Jun 2019</p>
-        </ion-item>  
-        <ion-card-content class="card-post">
-          <img src="assets/imgs/test1.jpg" alt="">
-        <div class="treeItems">
-          <div class="day">
-            <p>Enero</p>
-            <h4>25</h4>
-          </div>
-          <div class="name">
-            <p class="nameInter">Bootcamp Cultura y Talento</p>
-            <p class="lugar">Juan de Aliaga 123, Magdalena</p>
-          </div>
-          <div class="button">
-              <button ion-button class="button-inscribir">Inscribirme</button>
-          </div>
-        </div>
-      </ion-card-content>
-      
-        <ion-row>
-            <button ion-button color="dark" clear>
-              <i class="far fa-thumbs-up"></i>
-              <p>Like</p>
-            </button>
-            <button ion-button color="dark" clear>
-              <i class="far fa-comment"></i>
-              <p>Comentar</p>
-            </button>
-            <button ion-button color="dark" clear>
-              <i class="far fa-share-square"></i>
-              <p>Compartir</p>
-            </button>
-        </ion-row>
-      
-      </ion-card>
   
 </ion-content>

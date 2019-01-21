@@ -29,7 +29,29 @@
     "phonegap-plugin-barcodescanner": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-linkedin": {
+      "PACKAGE_NAME": "com.atx.betaapp"
+    },
+    "phonegap-plugin-push": {
+      "ANDROID_SUPPORT_V13_VERSION": "27.+",
+      "FCM_VERSION": "11.6.2",
+      "PACKAGE_NAME": "com.atx.betaapp"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "com.atx.betaapp"
+    },
+    "phonegap-plugin-multidex": {
+      "PACKAGE_NAME": "com.atx.betaapp"
+    }
+  }
 }

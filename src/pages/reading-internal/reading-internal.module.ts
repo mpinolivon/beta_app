@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { ReadingInternalPage } from './reading-internal';
+// import { ReadingInternalPage } from './reading-internal';
 
 @NgModule({
   declarations: [
-    ReadingInternalPage,
+    // ReadingInternalPage,
   ],
   imports: [
-    IonicPageModule.forChild(ReadingInternalPage),
+    // IonicPageModule.forChild(ReadingInternalPage),
   ],
 })
 export class ReadingInternalPageModule {}

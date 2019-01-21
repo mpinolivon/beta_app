@@ -47,6 +47,36 @@ module.exports = [
     "clobbers": [
       "cordova.plugins.barcodeScanner"
     ]
+  },
+  {
+    "id": "es6-promise-plugin.Promise",
+    "file": "plugins/es6-promise-plugin/www/promise.js",
+    "pluginId": "es6-promise-plugin",
+    "runs": true
+  },
+  {
+    "id": "cordova-plugin-x-socialsharing.SocialSharing",
+    "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+    "pluginId": "cordova-plugin-x-socialsharing",
+    "clobbers": [
+      "window.plugins.socialsharing"
+    ]
+  },
+  {
+    "id": "cordova-plugin-linkedin.LinkedIn",
+    "file": "plugins/cordova-plugin-linkedin/www/LinkedIn.js",
+    "pluginId": "cordova-plugin-linkedin",
+    "clobbers": [
+      "cordova.plugins.LinkedIn"
+    ]
+  },
+  {
+    "id": "phonegap-plugin-push.PushNotification",
+    "file": "plugins/phonegap-plugin-push/www/push.js",
+    "pluginId": "phonegap-plugin-push",
+    "clobbers": [
+      "PushNotification"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -58,7 +88,13 @@ module.exports.metadata =
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-ionic-webview": "2.3.1",
   "cordova-plugin-ionic-keyboard": "2.1.3",
-  "phonegap-plugin-barcodescanner": "8.0.1"
+  "phonegap-plugin-barcodescanner": "8.0.1",
+  "es6-promise-plugin": "4.2.2",
+  "cordova-plugin-x-socialsharing": "5.4.4",
+  "cordova-plugin-linkedin": "1.2.1",
+  "cordova-support-google-services": "1.1.0",
+  "phonegap-plugin-multidex": "1.0.0",
+  "phonegap-plugin-push": "2.2.3"
 };
 // BOTTOM OF METADATA
 });

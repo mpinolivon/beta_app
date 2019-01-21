@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "27203524543",
+    "firebase_url": "https://enestadobeta.firebaseio.com",
+    "project_id": "enestadobeta",
+    "storage_bucket": "enestadobeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27203524543:android:e6a71042d7e69493",
+        "android_client_info": {
+          "package_name": "com.atx.enestadobeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27203524543-s8h6u2k1aslmkro4sing9pfuqqndvjfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Mb4E3Z2-TcZu_4gdmk4kR0V8Ruviu8E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
