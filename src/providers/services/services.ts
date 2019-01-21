@@ -54,4 +54,15 @@ inscribedEvent(header,params){
     .pipe(map(data => data.json()));
   }
 
+  sendComent(header,params) {
+    return this.http.post(AppSettings.BASE+AppSettings.SENDCOMENT , header , params)
+    .pipe(map(data => data.json()));
+  }
+
+  listComent(header, id){
+    return this.http.get(AppSettings.BASE+AppSettings.LISTCOMENT + id, header)
+    .pipe(map(data => data.json()));
+    
+  }
+
 }

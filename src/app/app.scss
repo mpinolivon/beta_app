@@ -31,8 +31,20 @@
     src: url(../assets/fonts/helvetica/HelveticaNeue-LightExt.woff) format("ttf");
     font-weight: 200
     }
+@font-face {
+    font-family: Avenir;
+    src: url(../assets/fonts/Avenir/Avenir.ttf) format("ttf");
+    font-weight: 200
+}
+
+@font-face {
+    font-family: OldLondon;
+    src: url(../assets/fonts/old_london/OldLondon.ttf) format("ttf");
+    font-weight: 200
+}
+
     body {
-        font-family: HelveticaNeue !important;
+        font-family: HelveticaNeue;
     }
 .user {
     @extend %fa-icon;

@@ -1,4 +1,15 @@
 <ion-content style="padding-top:50px">
+
+    <ion-toolbar style="width: 90%;margin: auto;">
+        <ion-segment [(ngModel)]="segmentos">
+          <ion-segment-button value="events">
+            Eventos disponibles
+          </ion-segment-button>
+          <ion-segment-button value="history">
+            Historial de eventos
+          </ion-segment-button>
+        </ion-segment>
+      </ion-toolbar>
   <ion-card class="public-state" *ngFor="let events of listEvents">
           
     <ion-item>
@@ -28,12 +39,12 @@
     </div>
   </ion-card-content>
   
-    <ion-row  [ngClass]=" {'border' :  events.last_comment == null}">
+    <ion-row  [ngClass]=" {'border' :  events.last_comment != null}">
         <button ion-button color="dark" clear style="margin-bottom: 8px;" [ngClass]=" {'active' :  events.liked == 1}" (click)="like(events)">
           <i class="far fa-thumbs-up"></i>
           <p>Like</p>
         </button>
-        <button ion-button (click)="coment()" color="dark" clear style="border-right: 1px solid #efefef !important;margin-bottom: 8px;border-left: 1px solid #efefef !important;">
+        <button ion-button (click)="coment(events)" color="dark" clear style="border-right: 1px solid #efefef !important;margin-bottom: 8px;border-left: 1px solid #efefef !important;">
           <i class="far fa-comment"></i>
           <p>Comentar</p>
         </button>
@@ -42,15 +53,15 @@
           <p>Compartir</p>
         </button>
     </ion-row>
-    <div>
+    <div *ngIf="events.last_comment != null">
       <ion-item>
         <ion-avatar item-start style="margin: 8px 2px 8px 0;min-width:33px !important;display: flex;align-items: center;">
-          <img src="assets/imgs/user.png" alt="" style="width: 30px;height: auto;">
+          <img src="{{events.last_comment.user.avatar}}" alt="" style="width: 30px;height: auto;">
         </ion-avatar>
-        <h2 style="font-size: 12px;">En Estado Beta</h2>
-        <p style="font-size: 10px;" class="date-public">{{events.created_at | date : 'dd MMM yyyy'}}</p>
+        <h2 style="font-size: 12px;">{{events.last_comment.user.name}}</h2>
+        <p style="font-size: 10px;" class="date-public">{{events.last_comment.created_at | date : 'dd MMM yyyy'}}</p>
       </ion-item>
-      <p style="padding: 0px 17px 10px 17px; color:rgb(134, 134, 134); font-size: 11px;">It won’t be a bigger problem to find one game lover in yor neighbor. Since the introduction of Virtual Game.</p> 
+      <p style="padding: 0px 17px 10px 17px; color:rgb(134, 134, 134); font-size: 11px;">{{events.last_comment.text}}</p> 
     </div>
   </ion-card>
 

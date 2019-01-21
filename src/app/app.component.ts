@@ -8,6 +8,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { LoginPage } from '../pages/login/login';
 import { LoginAfterPage } from '../pages/login-after/login-after';
 import { QrPage } from '../pages/qr/qr';
+import { ComentPage } from '../pages/coment/coment';
+
 import { SessionService } from '../services/session.service';
 
 

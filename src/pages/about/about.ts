@@ -15,6 +15,7 @@ import { ComentPage } from '../../pages/coment/coment';
 export class AboutPage {
 
   public listEvents:any;
+  public segmentos = "events"
 
   constructor(public modalCtrl: ModalController,private socialSharing: SocialSharing,public loadingCtrl: LoadingController,private alertCtrl: AlertController,public navCtrl: NavController,public sessionS:SessionService, public events: Events, public services:ServicesAuth) {
     let loading = this.loadingCtrl.create({
@@ -63,7 +64,8 @@ export class AboutPage {
     console.log()
   }
 
-  coment(){
+  coment(events){
+    this.sessionS.setObject('event',events)
     let profileModal = this.modalCtrl.create(ComentPage);
    profileModal.present();
   }

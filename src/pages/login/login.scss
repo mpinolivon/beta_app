@@ -1,4 +1,14 @@
+@font-face {
+    font-family: OldLondon;
+    src: url(../../assets/fonts/old_london/OldLondon.ttf) format("ttf");
+    font-weight: 200
+}
+
 page-login {
+    font-family: Avenir !important;
+    .scroll-content {
+        height: calc(100vh) !important;
+    }
     ion-content {
         background-image: linear-gradient(to bottom right, #d43987, #a043b6);
     }
@@ -7,16 +17,17 @@ page-login {
         max-width: 300px;
         margin: auto;
         img {
-            width: 250px;
+            width: 310px;
             height: auto;
             margin: auto;
         }
         p {
             text-align: center;
-            font-size: 20px;
+            font-size: 24px;
             color: white;
-            font-weight: 400;
+            font-weight: 200;
             margin-top: 20px;
+            font-family: OldLondon !important;
         }
         .linkedinButton {
             width: 100%;
@@ -25,6 +36,9 @@ page-login {
             background: rgb( 0 ,117 ,184);
             text-transform: none;
             margin-top: 35px;   
+            font-family: Avenir !important;
+            font-weight: 200;
+            font-size: 16.5px;
             span {
                 ion-icon {
                     margin-right: 10px;
@@ -38,6 +52,9 @@ page-login {
             border-radius: 60px;
             text-transform: none;
             margin-top: 15px;   
+            font-family: Avenir !important;
+            font-weight: 200;
+            font-size: 16.5px;
         }
         .forget {
             margin-top: 10px;
@@ -52,6 +69,8 @@ page-login {
             text-transform: none;
             margin-top: 55px;   
             background: rgb(141, 31 ,136) !important; 
+            font-family: Avenir !important;
+            font-size: 18px;
         }
 
         .terminos {

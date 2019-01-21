@@ -12,5 +12,7 @@ export class AppSettings {
 	public static INSCRIBED = 'api/event/register/member';
 	public static USER = 'api/user/';
 	public static LIKE = 'api/event/like/event';
+	public static SENDCOMENT = 'api/event/comment/event';
+	public static LISTCOMENT = 'api/event/';
 	public static ROLES = { 'Admin': 0,	'Manager': 1, 'Player': 2, };
 }
