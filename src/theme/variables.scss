@@ -87,3 +87,21 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(../assets/fonts/helvetica/HelveticaNeue-LightExt.woff);
+  font-weight: 200
+  }
+
+@font-face {
+  font-family: Avenir;
+  src: url(../assets/fonts/Avenir/Avenir.ttf);
+  font-weight: 200
+}
+
+@font-face {
+  font-family: OldLondon;
+  src: url(../assets/fonts/old_london/OldLondon.ttf);
+  font-weight: 200
+}

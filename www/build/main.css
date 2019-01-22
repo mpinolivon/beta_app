@@ -3815,6 +3815,24 @@ ion-icon::before {
   src: local("Noto Sans Bold"), local("Noto-Sans-Bold"), url("../assets/fonts/noto-sans-bold.woff") format("woff"), url("../assets/fonts/noto-sans-bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(../assets/fonts/helvetica/HelveticaNeue-LightExt.woff);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../assets/fonts/Avenir/Avenir.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: OldLondon;
+  src: url(../assets/fonts/old_london/OldLondon.ttf);
+  font-weight: 200;
+}
+
 ion-action-sheet {
   left: 0;
   top: 0;
