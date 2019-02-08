@@ -1,7 +1,7 @@
 <ion-content style="padding-top:50px">
 
     <ion-toolbar style="width: 90%;margin: auto;">
-        <ion-segment [(ngModel)]="segmentos">
+        <ion-segment [(ngModel)]="segmentos" (ionChange)="changeTileType()">
           <ion-segment-button value="events">
             Eventos disponibles
           </ion-segment-button>

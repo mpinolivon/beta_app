@@ -33,6 +33,11 @@ export class ServicesAuth {
     .pipe(map(data => data.json()));
   }
 
+  listEventsHistory(params){
+    return this.http.get(AppSettings.BASE+AppSettings.EVENTSHISTORY, params)
+    .pipe(map(data => data.json()));
+  }
+
   
 inscribedEvent(header,params){
     return this.http.post(AppSettings.BASE+AppSettings.INSCRIBED, header,params)
@@ -62,7 +67,22 @@ inscribedEvent(header,params){
   listComent(header, id){
     return this.http.get(AppSettings.BASE+AppSettings.LISTCOMENT + id, header)
     .pipe(map(data => data.json()));
-    
+  }
+  
+
+  updateIdDevice(header,params) {
+    return this.http.post(AppSettings.BASE+AppSettings.IDDEVICE , header , params)
+    .pipe(map(data => data.json()));
+  }
+
+  aceptNotification(header,id) {
+    return this.http.get(AppSettings.BASE+AppSettings.NOTIFICATION1 + id , header)
+    .pipe(map(data => data.json()));
+  }
+
+  denegadoNotification(header,id) {
+    return this.http.get(AppSettings.BASE+AppSettings.NOTIFICATION2 + id , header)
+    .pipe(map(data => data.json()));
   }
 
 }

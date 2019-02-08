@@ -26,6 +26,14 @@ export class TabsPage {
   public nameUser:any;
 
   constructor(public sessionS:SessionService, public events: Events, public services:ServicesAuth) {
+    var body = {'device': this.sessionS.getObject('device')};
+    var header = {'headers':{'Authorization': this.sessionS.getObject('answertoken').token_type + " " + this.sessionS.getObject('answertoken').access_token}}
+    this.services.updateIdDevice(body, header).subscribe(response => {
+      console.log(response)
+    }, error => {
+      //alert('Usuario o contraseña incorrecto');
+    })
+
     this.sessionS.setObject('paramInscrip','none')
     this.user = this.sessionS.getObject('user').data;
     this.nameUser = this.user.name.split(" ")[0] + " " +this.user.lastname.split(" ")[0];

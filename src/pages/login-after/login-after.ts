@@ -118,11 +118,35 @@ export class LoginAfterPage {
         })
         //
       }, error => {
-        alert('Usuario o contraseña incorrecto');
+        this.loading.dismiss();
+        let alert = this.alertCtrl.create({
+          title: 'Error',
+          message: 'Usuario o contraseña incorrecto',
+          buttons: [
+            {
+              text: 'Ok',
+              role: 'cancel',
+              handler: () => {
+                console.log('Cancel clicked');
+              }
+            },
+            {
+              text: 'Reenviar Correo',
+              handler: () => {
+                // this.loginservice.userResend(idUser).subscribe(response => {
+                  
+                // })
+              }
+            }
+          ]
+        });
+        alert.present();
+        //alert('Usuario o contraseña incorrecto');
       })
     }
     else{
       console.log('asdasd');
+      this.loading.dismiss();
       // alert('Correo no válido');
     }      
 

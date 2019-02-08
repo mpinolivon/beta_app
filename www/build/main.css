@@ -3824,7 +3824,6 @@ ion-icon::before {
 @font-face {
   font-family: Avenir;
   src: url(../assets/fonts/Avenir/Avenir.ttf);
-  font-weight: 200;
 }
 
 @font-face {
@@ -31706,12 +31705,6 @@ page-home .card-post p {
   font-weight: 300;
 }
 
-@font-face {
-  font-family: OldLondon;
-  src: url(../../assets/fonts/old_london/OldLondon.ttf) format("ttf");
-  font-weight: 200;
-}
-
 page-login {
   font-family: Avenir !important;
 }
@@ -31739,11 +31732,12 @@ page-login .container img {
 
 page-login .container p {
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
-  font-weight: 200;
+  font-weight: 100;
   margin-top: 20px;
-  font-family: OldLondon !important;
+  font-family: Avenir !important;
+  letter-spacing: 1px;
 }
 
 page-login .container .linkedinButton {
@@ -31754,7 +31748,7 @@ page-login .container .linkedinButton {
   text-transform: none;
   margin-top: 35px;
   font-family: Avenir !important;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16.5px;
 }
 
@@ -31770,7 +31764,7 @@ page-login .container .mailButton {
   text-transform: none;
   margin-top: 15px;
   font-family: Avenir !important;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16.5px;
 }
 
@@ -31793,6 +31787,29 @@ page-login .container .register {
 
 page-login .container .terminos {
   font-size: 13px !important;
+}
+
+@media only screen and (min-height: 630px) {
+  page-login {
+    font-family: Avenir !important;
+  }
+  page-login .container {
+    max-width: 90% !important;
+  }
+  page-login .container p {
+    font-size: 24px;
+  }
+  page-login .container img {
+    width: 100% !important;
+  }
+  page-login .linkedinButton {
+    font-size: 18.5px !important;
+    height: 57px !important;
+  }
+  page-login .mailButton {
+    font-size: 18.5px !important;
+    height: 57px !important;
+  }
 }
 
 page-login-after .scroll-content {
@@ -31842,6 +31859,26 @@ page-login-after .content-login .goLogin, page-login-after .content-login-regist
 
 page-login-after .content-login .goBack, page-login-after .content-login-register .goBack {
   background: black !important;
+}
+
+page-notification .container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+page-notification .scroll-content {
+  height: inherit !important;
 }
 
 page-reading .scroll-content {

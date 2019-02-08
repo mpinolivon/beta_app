@@ -3815,6 +3815,23 @@ ion-icon::before {
   src: local("Noto Sans Bold"), local("Noto-Sans-Bold"), url("../assets/fonts/noto-sans-bold.woff") format("woff"), url("../assets/fonts/noto-sans-bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(../assets/fonts/helvetica/HelveticaNeue-LightExt.woff);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../assets/fonts/Avenir/Avenir.ttf);
+}
+
+@font-face {
+  font-family: OldLondon;
+  src: url(../assets/fonts/old_london/OldLondon.ttf);
+  font-weight: 200;
+}
+
 ion-action-sheet {
   left: 0;
   top: 0;
@@ -31688,12 +31705,6 @@ page-home .card-post p {
   font-weight: 300;
 }
 
-@font-face {
-  font-family: OldLondon;
-  src: url(../../assets/fonts/old_london/OldLondon.ttf) format("ttf");
-  font-weight: 200;
-}
-
 page-login {
   font-family: Avenir !important;
 }
@@ -31721,11 +31732,12 @@ page-login .container img {
 
 page-login .container p {
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
-  font-weight: 200;
+  font-weight: 100;
   margin-top: 20px;
-  font-family: OldLondon !important;
+  font-family: Avenir !important;
+  letter-spacing: 1px;
 }
 
 page-login .container .linkedinButton {
@@ -31736,7 +31748,7 @@ page-login .container .linkedinButton {
   text-transform: none;
   margin-top: 35px;
   font-family: Avenir !important;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16.5px;
 }
 
@@ -31752,7 +31764,7 @@ page-login .container .mailButton {
   text-transform: none;
   margin-top: 15px;
   font-family: Avenir !important;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16.5px;
 }
 
@@ -31775,6 +31787,23 @@ page-login .container .register {
 
 page-login .container .terminos {
   font-size: 13px !important;
+}
+
+@media only screen and (min-height: 630px) {
+  page-login {
+    font-family: Avenir !important;
+  }
+  page-login .container p {
+    font-size: 24px;
+  }
+  page-login .linkedinButton {
+    font-size: 18.5px !important;
+    height: 57px !important;
+  }
+  page-login .mailButton {
+    font-size: 18.5px !important;
+    height: 57px !important;
+  }
 }
 
 page-login-after .scroll-content {

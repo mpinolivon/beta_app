@@ -22,7 +22,7 @@ export class AboutPage {
       content: ''
     });
     loading.present();
-    this.services.listEvents({'headers':{'Authorization':"Bearer" + " " + this.sessionS.getObject('answertoken').access_token}}).subscribe(response => {
+    this.services.listEventsHistory({'headers':{'Authorization':"Bearer" + " " + this.sessionS.getObject('answertoken').access_token}}).subscribe(response => {
       // this.sessionS.setObject('ListEvents',response.data)
       this.listEvents = response.data.data;
       loading.dismiss();
@@ -36,6 +36,36 @@ export class AboutPage {
   //   this.sessionS.setObject('paramInscrip','block')
   //   console.log('red')
   // }
+
+  changeTileType(){
+    if (this.segmentos == "history") {
+      let loading = this.loadingCtrl.create({
+        content: ''
+      });
+      loading.present();
+      this.services.listEvents({'headers':{'Authorization':"Bearer" + " " + this.sessionS.getObject('answertoken').access_token}}).subscribe(response => {
+        // this.sessionS.setObject('ListEvents',response.data)
+        this.listEvents = response.data.data;
+        loading.dismiss();
+        console.log(this.listEvents );
+      }, error => {
+        //alert('Usuario o contraseña incorrecto');
+      })
+    } else {
+      let loading = this.loadingCtrl.create({
+        content: ''
+      });
+      loading.present();
+      this.services.listEventsHistory({'headers':{'Authorization':"Bearer" + " " + this.sessionS.getObject('answertoken').access_token}}).subscribe(response => {
+        // this.sessionS.setObject('ListEvents',response.data)
+        this.listEvents = response.data.data;
+        loading.dismiss();
+        console.log(this.listEvents );
+      }, error => {
+        //alert('Usuario o contraseña incorrecto');
+      })
+    }
+  }
 
   share(events){
     this.socialSharing.share(events.name + ',  ' +'en' + ' ' + events.address, '' , events.image, 'http://betaapp.atypax.com').then(() => {

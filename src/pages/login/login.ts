@@ -22,11 +22,15 @@ export class LoginPage {
   public selfData = { id:"", firstName:"", lastName:"", email:"" };
   public isLoggedIn= true;
   public hola = '1';
+  public notification:any;
+  public notification2:any;
+  public kk = false;
 
   constructor(private alertCtrl: AlertController,private linkedin: LinkedIn,public navCtrl: NavController, public navParams: NavParams, public sessionS:SessionService) {
   }
 
   ionViewDidLoad() {
+   
   //   this.linkedin.hasActiveSession().then((active) => {
   //     this.isLoggedIn = active;
   //     if(this.isLoggedIn === true) {
@@ -50,6 +54,12 @@ export class LoginPage {
         this.hola = err;
     });
   
+  }
+  get(){
+    this.kk = true;
+    this.notification = this.sessionS.getObject('dataNotification');
+    this.notification2 = this.sessionS.getObject('dataNotification1');
+
   }
 
   getSelfData() {

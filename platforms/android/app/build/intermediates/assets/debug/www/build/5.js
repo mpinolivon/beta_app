@@ -1,14 +1,12 @@
 webpackJsonp([5],{
 
-/***/ 441:
+/***/ 446:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComentPageModule", function() { return ComentPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginAfterPageModule", function() { return LoginAfterPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__coment__ = __webpack_require__(133);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -16,25 +14,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
-
-
-var ComentPageModule = /** @class */ (function () {
-    function ComentPageModule() {
+// import { LoginAfterPage } from './login-after';
+var LoginAfterPageModule = /** @class */ (function () {
+    function LoginAfterPageModule() {
     }
-    ComentPageModule = __decorate([
+    LoginAfterPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__coment__["a" /* ComentPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__coment__["a" /* ComentPage */]),
-            ],
+            declarations: [],
+            imports: [],
         })
-    ], ComentPageModule);
-    return ComentPageModule;
+    ], LoginAfterPageModule);
+    return LoginAfterPageModule;
 }());
 
-//# sourceMappingURL=coment.module.js.map
+//# sourceMappingURL=login-after.module.js.map
 
 /***/ })
 

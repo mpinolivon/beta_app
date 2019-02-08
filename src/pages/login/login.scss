@@ -1,8 +1,8 @@
-@font-face {
-    font-family: OldLondon;
-    src: url(../../assets/fonts/old_london/OldLondon.ttf) format("ttf");
-    font-weight: 200
-}
+// @font-face {
+//     font-family: OldLondon;
+//     src: url(../../assets/fonts/old_london/OldLondon.ttf) format("ttf");
+//     font-weight: 200
+// }
 
 page-login {
     font-family: Avenir !important;
@@ -23,11 +23,12 @@ page-login {
         }
         p {
             text-align: center;
-            font-size: 24px;
+            font-size: 20px;
             color: white;
-            font-weight: 200;
+            font-weight: 100;
             margin-top: 20px;
-            font-family: OldLondon !important;
+            font-family: Avenir !important;
+            letter-spacing: 1px;
         }
         .linkedinButton {
             width: 100%;
@@ -37,7 +38,7 @@ page-login {
             text-transform: none;
             margin-top: 35px;   
             font-family: Avenir !important;
-            font-weight: 200;
+            font-weight: 400;
             font-size: 16.5px;
             span {
                 ion-icon {
@@ -53,7 +54,7 @@ page-login {
             text-transform: none;
             margin-top: 15px;   
             font-family: Avenir !important;
-            font-weight: 200;
+            font-weight: 400;
             font-size: 16.5px;
         }
         .forget {
@@ -78,3 +79,28 @@ page-login {
         }
     }
 }
+
+@media only screen and (min-height: 630px) {
+    page-login {
+        font-family: Avenir !important;
+        .container {
+            max-width: 90% !important;
+            p {
+                font-size: 24px;
+            }
+            img {
+                width: 100% !important;
+            }
+        }
+        .linkedinButton {
+            font-size: 18.5px !important;
+            height: 57px !important;
+        }
+
+        .mailButton {
+            font-size: 18.5px !important;
+            height: 57px !important;
+        }
+    }
+
+  }

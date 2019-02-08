@@ -13,6 +13,8 @@ import { LoginAfterPage } from '../pages/login-after/login-after';
 import { ReadingInternalPage } from '../pages/reading-internal/reading-internal';
 import { QrPage } from '../pages/qr/qr';
 import { ComentPage } from '../pages/coment/coment';
+import { NotificationPage } from '../pages/notification/notification';
+
 
 
 import { HttpModule, Headers, RequestOptions, Http } from '@angular/http';
@@ -28,6 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { LinkedIn } from '@ionic-native/linkedin';
 import { Push } from '@ionic-native/push';
+import { FCM } from '@ionic-native/fcm';
 
 
 
@@ -43,7 +46,8 @@ import { Push } from '@ionic-native/push';
     LoginAfterPage,
     ReadingInternalPage,
     QrPage,
-    ComentPage
+    ComentPage,
+    NotificationPage
   ],
   imports: [
     BrowserModule,
@@ -64,7 +68,8 @@ import { Push } from '@ionic-native/push';
     LoginAfterPage,
     ReadingInternalPage,
     QrPage,
-    ComentPage
+    ComentPage,
+    NotificationPage
   ],
   providers: [
     StatusBar,
@@ -76,6 +81,7 @@ import { Push } from '@ionic-native/push';
     SocialSharing,
     LinkedIn,
     Push,
+    FCM,
   ]
 })
 export class AppModule {}

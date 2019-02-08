@@ -96,6 +96,7 @@ apply from: "../cordova-plugin-linkedin/starter-LinkedIn.gradle"
 apply from: "../cordova-plugin-linkedin/betaapp-LinkedIn.gradle"
 apply from: "../cordova-support-google-services/betaapp-build.gradle"
 apply from: "../phonegap-plugin-multidex/betaapp-multidex.gradle"
+apply from: "../cordova-plugin-fcm-with-dependecy-updated/enestadobeta-FCMPlugin.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -276,6 +277,8 @@ dependencies {
     compile "com.android.support:support-v13:27.+"
     compile "me.leolin:ShortcutBadger:1.1.17@aar"
     compile "com.google.firebase:firebase-messaging:11.6.2"
+    compile "com.google.firebase:firebase-core:10.+"
+    compile "com.google.firebase:firebase-messaging:10.+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

@@ -77,6 +77,14 @@ module.exports = [
     "clobbers": [
       "PushNotification"
     ]
+  },
+  {
+    "id": "cordova-plugin-fcm-with-dependecy-updated.FCMPlugin",
+    "file": "plugins/cordova-plugin-fcm-with-dependecy-updated/www/FCMPlugin.js",
+    "pluginId": "cordova-plugin-fcm-with-dependecy-updated",
+    "clobbers": [
+      "FCMPlugin"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -94,7 +102,8 @@ module.exports.metadata =
   "cordova-plugin-linkedin": "1.2.1",
   "cordova-support-google-services": "1.1.0",
   "phonegap-plugin-multidex": "1.0.0",
-  "phonegap-plugin-push": "2.2.3"
+  "phonegap-plugin-push": "2.2.3",
+  "cordova-plugin-fcm-with-dependecy-updated": "2.4.0"
 };
 // BOTTOM OF METADATA
 });

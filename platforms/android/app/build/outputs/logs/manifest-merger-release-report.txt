@@ -20,16 +20,16 @@ INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/A
 	android:name
 		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:22:43-101
 manifest
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-44:12
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
 MERGED from [:barcodescanner-release-2.1.5:] /Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-core:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.6.aar/915d13dd39dbd562295d49c8a16139c6/AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:support-v13:27.1.1] /Users/RSL/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/a6c8a81351e6da57e5530eb202acfb2f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:16:1-29:12
 MERGED from [com.google.firebase:firebase-messaging:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/AndroidManifest.xml:16:1-30:12
-MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/1bc4674489913e4c137497f4edd6e9c6/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:16:1-35:12
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:16:1-29:12
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:16:1-47:12
 MERGED from [com.google.firebase:firebase-common:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/72093dabc5dbcfb7e6aececee5b0b4f8/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-tasks:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.2.aar/c6507529827a6f566deb84a663900a21/AndroidManifest.xml:2:1-5:12
@@ -43,20 +43,18 @@ MERGED from [com.android.support:support-compat:27.1.1] /Users/RSL/.gradle/cache
 MERGED from [me.leolin:ShortcutBadger:1.1.17] /Users/RSL/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.17.aar/143730017c9c5b95ec244747dd20ee43/AndroidManifest.xml:2:1-52:12
 MERGED from [:CordovaLib] /Users/RSL/Desktop/MONEY/beta_app/platforms/android/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml:20:1-27:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/afc481277b368a41f9af511347cfab8e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-messaging-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.2.aar/264e0fd17817e07bbd8e5d9f8a95e4d3/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/46bbb0b53c81dbf15a681278849f4e5d/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/ccf449378ee64f464c53b3573134feef/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/e78b54e6384e546901cb2db1c28d14a2/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/f002e77ce9376e15323edbc91d255867/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/515f3f58bf2fc35e4d5445be31d792a5/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/05b4a850945eae422b5fa93d95202384/AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/19a59ea57b275b73e1a50b994c986850/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b30af39651fb011cc1469f7c7db777ab/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/15e5104484341e121b6d62a11c96a958/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b6748a09609a51aa9d01da37d3065f3a/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-44:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.2.aar/264e0fd17817e07bbd8e5d9f8a95e4d3/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/46bbb0b53c81dbf15a681278849f4e5d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/ccf449378ee64f464c53b3573134feef/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/e78b54e6384e546901cb2db1c28d14a2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/515f3f58bf2fc35e4d5445be31d792a5/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:2:102-132
 		INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml
@@ -89,26 +87,26 @@ ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/Andr
 		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
 ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:5:5-35:19
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:5:5-51:19
 MERGED from [:barcodescanner-release-2.1.5:] /Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/AndroidManifest.xml:11:5-12:19
 MERGED from [:barcodescanner-release-2.1.5:] /Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.firebase:firebase-core:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.6.aar/915d13dd39dbd562295d49c8a16139c6/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.6.aar/915d13dd39dbd562295d49c8a16139c6/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-messaging:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/AndroidManifest.xml:19:5-29:19
 MERGED from [com.google.firebase:firebase-messaging:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/1bc4674489913e4c137497f4edd6e9c6/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/1bc4674489913e4c137497f4edd6e9c6/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:29:5-46:19
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:29:5-46:19
 MERGED from [com.google.firebase:firebase-common:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/72093dabc5dbcfb7e6aececee5b0b4f8/AndroidManifest.xml:4:5-7:19
@@ -125,12 +123,8 @@ MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /User
 MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/ccf449378ee64f464c53b3573134feef/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/e78b54e6384e546901cb2db1c28d14a2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/e78b54e6384e546901cb2db1c28d14a2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/f002e77ce9376e15323edbc91d255867/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/f002e77ce9376e15323edbc91d255867/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/515f3f58bf2fc35e4d5445be31d792a5/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/515f3f58bf2fc35e4d5445be31d792a5/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/05b4a850945eae422b5fa93d95202384/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/05b4a850945eae422b5fa93d95202384/AndroidManifest.xml:5:5-20
 	android:supportsRtl
 		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
@@ -225,21 +219,47 @@ action#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:32:17-80
 	android:name
 		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:32:25-77
+activity#com.gae.scaffolder.plugin.FCMPluginActivity
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:35:9-40:20
+	android:launchMode
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:35:43-73
+	android:exported
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:35:19-42
+	android:name
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:35:74-132
+intent-filter#FCM_PLUGIN_ACTIVITY+android.intent.category.DEFAULT
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:36:13-39:29
+action#FCM_PLUGIN_ACTIVITY
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:37:17-62
+	android:name
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:37:25-59
+category#android.intent.category.DEFAULT
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:38:27-73
+service#com.gae.scaffolder.plugin.MyFirebaseMessagingService
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:41:9-45:19
+	android:name
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:41:18-85
+service#com.gae.scaffolder.plugin.MyFirebaseInstanceIDService
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:46:9-50:19
+	android:name
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:46:18-86
 uses-sdk
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:36:5-74
-INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:36:5-74
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:52:5-74
+INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:52:5-74
 MERGED from [:barcodescanner-release-2.1.5:] /Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/AndroidManifest.xml:7:5-9:41
 MERGED from [:barcodescanner-release-2.1.5:] /Users/RSL/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/68b361e01bfaf466be7bd1178de08248/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.6.aar/915d13dd39dbd562295d49c8a16139c6/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-10.2.6.aar/915d13dd39dbd562295d49c8a16139c6/AndroidManifest.xml:4:5-43
 MERGED from [com.android.support:support-v13:27.1.1] /Users/RSL/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/a6c8a81351e6da57e5530eb202acfb2f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v13:27.1.1] /Users/RSL/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/a6c8a81351e6da57e5530eb202acfb2f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-messaging:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-messaging:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/1bc4674489913e4c137497f4edd6e9c6/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-core:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.2.aar/1bc4674489913e4c137497f4edd6e9c6/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-common:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.2.aar/72093dabc5dbcfb7e6aececee5b0b4f8/AndroidManifest.xml:3:5-43
@@ -266,20 +286,6 @@ MERGED from [:CordovaLib] /Users/RSL/Desktop/MONEY/beta_app/platforms/android/Co
 MERGED from [:CordovaLib] /Users/RSL/Desktop/MONEY/beta_app/platforms/android/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml:25:5-44
 MERGED from [com.android.support:multidex:1.0.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/afc481277b368a41f9af511347cfab8e/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/afc481277b368a41f9af511347cfab8e/AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-messaging-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.2.aar/264e0fd17817e07bbd8e5d9f8a95e4d3/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-messaging-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.2.aar/264e0fd17817e07bbd8e5d9f8a95e4d3/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/46bbb0b53c81dbf15a681278849f4e5d/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/46bbb0b53c81dbf15a681278849f4e5d/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/ccf449378ee64f464c53b3573134feef/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/ccf449378ee64f464c53b3573134feef/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/e78b54e6384e546901cb2db1c28d14a2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/e78b54e6384e546901cb2db1c28d14a2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/f002e77ce9376e15323edbc91d255867/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.2.aar/f002e77ce9376e15323edbc91d255867/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/515f3f58bf2fc35e4d5445be31d792a5/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/515f3f58bf2fc35e4d5445be31d792a5/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/05b4a850945eae422b5fa93d95202384/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.2.aar/05b4a850945eae422b5fa93d95202384/AndroidManifest.xml:4:5-43
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/19a59ea57b275b73e1a50b994c986850/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/19a59ea57b275b73e1a50b994c986850/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b30af39651fb011cc1469f7c7db777ab/AndroidManifest.xml:20:5-44
@@ -288,113 +294,111 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/RSL/.gradle/caches/t
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/15e5104484341e121b6d62a11c96a958/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b6748a09609a51aa9d01da37d3065f3a/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/RSL/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b6748a09609a51aa9d01da37d3065f3a/AndroidManifest.xml:20:5-44
-INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:36:5-74
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.2.aar/264e0fd17817e07bbd8e5d9f8a95e4d3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.2.aar/264e0fd17817e07bbd8e5d9f8a95e4d3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/46bbb0b53c81dbf15a681278849f4e5d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.2.aar/46bbb0b53c81dbf15a681278849f4e5d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/ccf449378ee64f464c53b3573134feef/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.2.aar/ccf449378ee64f464c53b3573134feef/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/e78b54e6384e546901cb2db1c28d14a2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.2.aar/e78b54e6384e546901cb2db1c28d14a2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/515f3f58bf2fc35e4d5445be31d792a5/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.2.aar/515f3f58bf2fc35e4d5445be31d792a5/AndroidManifest.xml:4:5-43
+INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:52:5-74
 	android:targetSdkVersion
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:36:42-71
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:52:42-71
 	android:minSdkVersion
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:36:15-41
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:52:15-41
 		INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:37:5-65
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:53:5-65
 	android:name
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:37:22-62
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:53:22-62
 uses-permission#android.permission.FLASHLIGHT
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:38:5-69
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:54:5-69
 	android:name
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:38:22-66
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:54:22-66
 uses-feature#android.hardware.camera
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:39:5-84
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:55:5-84
 	android:required
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:39:58-81
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:55:58-81
 	android:name
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:39:19-57
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:55:19-57
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:40:5-81
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:56:5-81
 	android:name
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:40:22-78
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:56:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:41:5-79
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:21:5-78
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:57:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:19:5-78
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:41:22-76
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:57:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:42:5-68
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:22:5-67
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:58:5-68
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:42:22-65
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:58:22-65
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:43:5-66
+ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:59:5-66
 	android:name
-		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:43:22-63
+		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:59:22-63
 meta-data#android.support.FILE_PROVIDER_PATHS
 ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:20:13-115
 	android:resource
 		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:20:75-112
 	android:name
 		ADDED from /Users/RSL/Desktop/MONEY/beta_app/platforms/android/app/src/main/AndroidManifest.xml:20:24-74
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.2.6.aar/020492bca41d39489b60201c69dd9faa/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.2.6.aar/afcf870779a567c2c2eadcc171e9ab3f/AndroidManifest.xml:32:16-87
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/AndroidManifest.xml:23:9-27:19
 	android:exported
 		ADDED from [com.google.firebase:firebase-messaging:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/AndroidManifest.xml:23:88-111
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.2.aar/076fcbe406c3ae260a44adcf5dc4bde4/AndroidManifest.xml:23:18-87
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:25:7-26:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:25:90-112
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:25:113-137
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:25:17-89
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:27:7-31:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:27:162-184
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:27:185-208
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:27:105-161
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:27:17-104
-intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:28:11-30:27
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:29:15-76
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:29:23-74
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:27:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.2.aar/9308b28008f49bfb476812a65df67ebb/AndroidManifest.xml:27:7-137
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:32:88-110
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:32:111-135
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:32:16-87
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:33:7-197
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:33:148-170
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:33:171-195
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:33:91-147
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.2.aar/c47fae4fa82ac0f8edeb0650378402cf/AndroidManifest.xml:33:16-90
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:11.6.2] /Users/RSL/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.2.aar/5eb933f28877bc4281d91658964c99d7/AndroidManifest.xml:23:5-81
 	android:name

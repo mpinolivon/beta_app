@@ -5,18 +5,28 @@
   Ionic pages and navigation.
 -->
 <ion-content>
-  <div class="container">
-    <img src="assets/imgs/logo.png" alt="">
-    <p>Lo mejor de la innovación <br>
-        en la palma de tu mano</p>
-        <button ion-button class="linkedinButton" (click)="loginLinkedin()"> <ion-icon name="logo-linkedin"></ion-icon>  Ingresar con Linkedin</button>
+  <div class="container" style="height: 100vh;display: flex;flex-direction: column;justify-content: space-between;">
+    <div>
+      <img src="assets/imgs/logo.png" alt="">
+      <p>Lo mejor de la innovación <br>
+          en la palma de tu mano</p>
+    </div>
+    <div>
+      <button ion-button class="linkedinButton" (click)="loginLinkedin()"> <ion-icon name="logo-linkedin"></ion-icon>  Ingresar con Linkedin</button>
         <button ion-button color="dark" class="mailButton"  (click)="loginPage(0)">Ingresar con Email</button>
         <button ion-button class="forget" color="light" clear>Olvide la contraseña</button>
-        <button ion-button class="register" (click)="loginPage(1)">Registrar</button>
+    </div>
+    <div>
+      <button ion-button class="register" (click)="loginPage(1)">Registrar</button>
         <p class="terminos">Al registrarte e ingresar estás de acuerdo <br>
             con nuestros Términos y condiciones</p>
+    </div>
   </div>
-  <!-- <h3 *ngIf="isLoggedIn==true">
+  <button ion-button round outline (click)="get()">kk</button>
+
+  <div *ngIf="kk == true">{{notification | json}}</div>
+  <div *ngIf="kk == true">{{notification1 | json}}</div>
+  <h3 *ngIf="isLoggedIn==true">
     <ul>
       <input type="text" [(ngModel)]="hola">
       <li>{{hola}}</li>
@@ -26,5 +36,5 @@
     </ul>
     <br>
     <button ion-button round outline (click)="logout()">Logout from&nbsp;<ion-icon name="logo-linkedin"></ion-icon></button>
-</h3> -->
+</h3>
 </ion-content>
